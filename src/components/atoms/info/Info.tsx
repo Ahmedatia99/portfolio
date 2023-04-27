@@ -23,7 +23,7 @@ export default function Info() {
             <div className="text-white relative flex items-center justify-center  ">
               <div className="border-circle border-[30px] rounded-full	blur-lg w-96 h-96 blr"></div>
               <img
-                src="../../public/images/atia.png"
+                src="./images/atia.png"
                 className="absolute bottom-0  rounded-full pb-8"
               />
             </div>
@@ -93,7 +93,7 @@ export default function Info() {
         </div>
       </div>
       <div className="p-2 w-14 trans    ">
-        <img src="@/../public/images/down.svg" />
+        <img src="./images/down.svg" />
       </div>
     </main>
   )
