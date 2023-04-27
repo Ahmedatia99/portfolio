@@ -1,0 +1,54 @@
+.liner {
+  background: linear-gradient(
+    91.28deg,
+    #711a75 25.83%,
+    #f10086 58.07%,
+    #f582a7 90.44%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes blur {
+  from {
+    filter: blur(16px);
+  }
+  to {
+    filter: blur(30px);
+  }
+}
+@keyframes down {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rote {
+    animation: spin 8s ease-in-out 1s infinite;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .blr {
+    animation: blur 5s ease-out 1s infinite alternate;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .trans {
+    animation: down 1s ease-in 0s infinite alternate;
+  }
+}

@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        senior:'#180A0A',
+        senior: '#180A0A',
+        juonir: "#F10086",
+        circle:"#711A75"
       }
     },
   },

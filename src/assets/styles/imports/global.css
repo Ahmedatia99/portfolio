@@ -5,10 +5,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Work sans', sans-serif, -apple-system, BlinkMacSystemFont,
+  position: relative;
+  font-family: 'Quartzo', sans-serif, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
-  position: relative;
   background-color: #180a0a;
+
   height: 100vh;
 }
