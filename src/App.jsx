@@ -9,7 +9,7 @@ function App() {
     <main>
       <Landing />
       <Script />
-      <Experience/>
+      <Experience />
     </main>
   )
 }
