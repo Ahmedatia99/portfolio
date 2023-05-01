@@ -4,9 +4,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        senior: '#180A0A',
-        juonir: "#F10086",
-        circle:"#711A75"
+        primary: "#4831d4",
+        morning: "#ccf381",
+        fonts: "#3d155f"
+      },
+      fontFamily: {
+        helvetica: ["helvetica"],
+        sfu: ["SF UI Text"]
       }
     },
   },

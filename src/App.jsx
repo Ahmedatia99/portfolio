@@ -1,12 +1,15 @@
 import React from 'react'
 import './assets/styles/main.css'
-import Info from './components/atoms/info/Info'
-import Nav from './components/Nav'
+import Landing from './components/atoms/info/Landing'
+import Script from './components/Script'
+import Experience from './components/experience'
+
 function App() {
   return (
-    <main className="">
-      <Nav />
-      <Info />
+    <main>
+      <Landing />
+      <Script />
+      <Experience/>
     </main>
   )
 }
