@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Script() {
   return (
-    <section className="w-full h-screen pt-36">
+    <section className="w-full h-screen pt-20">
       {/* Design section */}
       <div className="flex justify-around items-center">
         <article>

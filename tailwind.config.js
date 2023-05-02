@@ -6,7 +6,9 @@ export default {
       colors: {
         primary: "#4831d4",
         morning: "#ccf381",
-        fonts: "#3d155f"
+        fonts: "#3d155f",
+        supcolor: "#F9F9F9",
+        footer: "#3d155f"
       },
       fontFamily: {
         helvetica: ["helvetica"],
