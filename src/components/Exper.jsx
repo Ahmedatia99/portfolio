@@ -2,35 +2,38 @@ import React from 'react'
 
 export default function Experience() {
   return (
-    <section className=" flex justify-center items-center gap-36 h-screen w-full bg-primary pt-10 flex-wrap">
+    <section className=" flex justify-center items-center gap-60 h-screen w-full bg-primary py-16 flex-wrap">
       <article>
         <div>
-          <h1 className="text-6xl font-extrabold max-w-xs text-morning">
+          <h1
+            className="text-6xl font-extrabold max-w-xs text-morning"
+            data-aos="flip-left"
+          >
             Over the years,
           </h1>
-          <div className="text-sm text-white max-w-sm flex flex-col items-center">
-            <p className="py-5">
+          <div className="text-sm text-white max-w-sm flex flex-col items-center font-sfu ">
+            <p className="py-5" data-aos="fade-down">
               I've built products for companies and businesses around the globe
               ranging from marketing websites to complex solutions and
               enterprise apps with focus on fast, elegant and accessible user
               experiences.
             </p>
-            <p className="pb-5">
+            <p className="pb-5" data-aos="fade-down">
               Currently, I work at Shopify as a Senior Frontend Engineer
               crafting thoughtful and inclusive experiences that adhere to web
               standards for over 3 million merchants across the world
             </p>
-            <p className="pb-5">
+            <p className="pb-5" data-aos="fade-down">
               . Before now, I was Principal Frontend Engineer at hellotax, where
               I worked on a suite of tools and services tailored towards
               automated VAT compliance for multi-channel sellers in Europe.
             </p>
-            <p className="pb-5">
+            <p className="pb-5" data-aos="fade-down">
               Prior to hellotax, I was Senior frontend engineering consultant
               with Pixel2HTML, building JavaScript applications and interfaces
               for orgs and individuals
             </p>
-            <p className="pb-5">
+            <p className="pb-5" data-aos="fade-down">
               . I once also led the frontend team at Conectar, an e-learning
               startup through building multiple React applications into a single
               robust learning platform.
@@ -38,7 +41,7 @@ export default function Experience() {
           </div>
         </div>
       </article>
-      <div className="max-w-md ">
+      <div className="max-w-xl " data-aos="zoom-out">
         <svg
           width="600"
           height="500"

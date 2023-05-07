@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         helvetica: ["helvetica"],
         sfu: ["SF UI Text"]
+      },
+      backgroundImage:{
+        "footer-bg":"url('/images/contact.svg')"
       }
     },
   },

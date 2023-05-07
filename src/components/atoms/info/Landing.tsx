@@ -4,14 +4,22 @@ import Nav from '../../../components/Nav'
 
 export default function Info() {
   return (
-    <main className="over flex flex-col items-start justify-center w-full h-screen font-helvetica ">
-      <section>
+    <main
+      className=" over flex flex-col items-center justify-center w-full h-screen font-helvetica py-32"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+    >
+      <section className="w-full px-20 ">
         <Nav />
       </section>
-      <section className="flex justify-around items-center  w-full max-w-full my-24 ">
+      <section className=" container flex justify-between  items-center  my-24 flex-wrap">
         {/* info section */}
-        <article className="max-w-sm flex flex-col justify-between items-center">
-          <div className="flex flex-col justify-between items-start pl-10 ">
+        <article className="max-w-md flex flex-col justify-between items-center">
+          <div
+            className="flex flex-col justify-between items-start "
+            data-aos="fade-down"
+            data-aos-easing="linear"
+          >
             <h1 className="text-morning text-7xl font-extrabold leading-tight">
               Frontend Developer
               <span className="text-white font-sfu ">.</span>
@@ -21,7 +29,7 @@ export default function Info() {
               user experiences.
             </p>
           </div>
-          <div className="flex justify-between items-center gap-10 text-xs text-morning mt-20 w-full">
+          <div className="flex justify-between items-center gap-10 text-sm text-morning mt-20 w-full">
             <p className="max-w-sm">
               Highly skilled at progressive enhancement, design systems & UI
               Engineering.
@@ -33,7 +41,7 @@ export default function Info() {
           </div>
         </article>
         {/* image section */}
-        <div className="relative flex mr-20 mb-10 ">
+        <div className="relative flex mr-20 mb-10">
           <div className="absolute z-10 -right-9 bottom-0">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +85,12 @@ export default function Info() {
             </svg>
           </div>
           <div className=" bg-transparent w-80 h-80 absolute top-7 right-12  border-2 border-white border-solid "></div>
-          <div className="max-w-xs  relative z-20 mr-20">
+          <div
+            className="max-w-xs  relative z-20 mr-20"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+          >
             {' '}
             <img src="./images/atia.jpg" alt="ahmed atia" />
           </div>

@@ -2,12 +2,20 @@ import React from 'react'
 
 export default function Script() {
   return (
-    <section className="w-full h-screen pt-20">
+    <section
+      className=" flex flex-col justify-center items-center h-screen pt-20  font-sfu"
+      data-aos="fade-up"
+    >
       {/* Design section */}
-      <div className="flex justify-around items-center">
+      <div className="flex justify-center gap-60 items-center">
         <article>
-          <h1 className="text-primary text-6xl font-extrabold mb-5">Design</h1>
-          <p className="text-fonts max-w-lg">
+          <h1
+            className="text-primary text-6xl font-extrabold mb-5 font-helvetica"
+            data-aos="fade-right"
+          >
+            Design
+          </h1>
+          <p className="text-fonts max-w-lg" data-aos="fade-up">
             I'm probably not the typical designer positioned behind an
             Illustrator artboard adjusting pixels, but I design. Immersed in
             stylesheets tweaking font sizes and contemplating layouts is where
@@ -41,7 +49,7 @@ export default function Script() {
         </div>
       </div>
       {/* Engineering Section */}
-      <div className="flex justify-around items-center mt-20">
+      <div className="flex justify-center gap-60 items-center mt-20">
         <div className=" ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,10 +71,13 @@ export default function Script() {
           </svg>
         </div>
         <article>
-          <h1 className="text-primary text-6xl font-extrabold mb-5">
+          <h1
+            className="text-primary text-6xl font-extrabold mb-5 font-helvetica"
+            data-aos="fade-right"
+          >
             Engineering
           </h1>
-          <p className="text-fonts max-w-lg">
+          <p className="text-fonts max-w-lg" data-aos="fade-up">
             In building JavaScript applications, I'm equipped with just the
             right tools, and can absolutely function independently of them to
             deliver fast, resilient solutions optimized for scale — performance
