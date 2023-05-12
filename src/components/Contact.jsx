@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <footer className="relative bg-footer bg-footer-bg h-screen text-center flex justify-center flex-col text-morning text-xl font-sfu ">
+    <main className="relative bg-footer bg-footer-bg h-screen text-center flex justify-center flex-col text-morning text-xl font-sfu ">
       <div
         className="mx-6 py-10 text-center md:text-left relative z-50"
         data-aos="fade-right"
@@ -84,6 +84,6 @@ export default function Contact() {
           </a>
         </div>
       </div>
-    </footer>
+    </main>
   )
 }

@@ -2,10 +2,7 @@ import React from 'react'
 
 export default function Script() {
   return (
-    <section
-      className=" flex flex-col justify-center items-center h-screen pt-20  font-sfu"
-      data-aos="fade-up"
-    >
+    <main className=" flex flex-col justify-center items-center h-screen pt-20  font-sfu">
       {/* Design section */}
       <div className="flex justify-center gap-60 items-center">
         <article>
@@ -85,6 +82,6 @@ export default function Script() {
           </p>
         </article>
       </div>
-    </section>
+    </main>
   )
 }

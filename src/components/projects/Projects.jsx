@@ -1,10 +1,8 @@
 import React from 'react'
 import './projects.css'
-import 'aos/dist/aos.css'
-import AOS from 'aos'
 export default function Projects() {
   return (
-    <section className="h-screen w-full relative flex justify-center items-center bg-supcolor py-32">
+    <main className="h-screen w-full relative flex justify-center items-center bg-supcolor py-32 ">
       <div className=" p-28 bg-white absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 border-4 border-primary">
         <h1
           className="text-primary text-5xl font-extrabold max-w-xs"
@@ -16,12 +14,8 @@ export default function Projects() {
           Open source projects, web apps and experimentals.
         </p>{' '}
         <div>
-          <button
-            className="link relative transition-all flex  mx-auto  mt-10 px-16  py-3 border-solid border-primary border-[1px] text-primary font-bold font-sfu"
-            data-aos="fade-down"
-          >
+          <button className="link relative transition-all flex  mx-auto  mt-10 px-16  py-3 border-solid border-primary border-[1px] text-primary font-bold font-sfu">
             <span className="mr-3 relative z-20 ">see my work</span>
-
             <svg
               width="50"
               height="20"
@@ -39,7 +33,6 @@ export default function Projects() {
           </button>
         </div>
       </div>
-    </section>
+    </main>
   )
 }
-//

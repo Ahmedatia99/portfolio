@@ -1,25 +1,18 @@
 import React from 'react'
 import './land.css'
-import Nav from '../../../components/Nav'
-
+import Nav from '../../navigation/Nav'
 export default function Info() {
   return (
-    <main
-      className=" over flex flex-col items-center justify-center w-full h-screen font-helvetica py-32"
-      data-aos="fade-down"
-      data-aos-easing="linear"
-    >
-      <section className="w-full px-20 ">
-        <Nav />
-      </section>
-      <section className=" container flex justify-between  items-center  my-24 flex-wrap">
+    <main className=" over flex flex-col items-center justify-center w-full h-screen font-helvetica relative">
+      <Nav />
+      <section className=" container flex justify-between  items-center  my-10 flex-wrap absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
         {/* info section */}
-        <article className="max-w-md flex flex-col justify-between items-center">
-          <div
-            className="flex flex-col justify-between items-start "
-            data-aos="fade-down"
-            data-aos-easing="linear"
-          >
+        <article
+          className="max-w-md flex flex-col justify-between items-center"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+        >
+          <div className="flex flex-col justify-between items-start ">
             <h1 className="text-morning text-7xl font-extrabold leading-tight">
               Frontend Developer
               <span className="text-white font-sfu ">.</span>

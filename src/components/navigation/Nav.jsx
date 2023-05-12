@@ -1,11 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
+import './nav.css'
 
 export default function Nav() {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <nav className="bg-background text-white ">
+    <main className="bg-background text-white px-20 w-full py-10">
       <div className=" ">
         <div className="relative">
           {/* Logo  */}
@@ -56,11 +57,11 @@ export default function Nav() {
           </div>
           <div
             className={` opacity-100 flex justify-center items-center flex-col bg-white absolute top-0 right-0 z-40 text-primary mt-7 w-80 md:block rounded-lg
-            ${navbar ? 'md:block sm:block' : 'md:hidden sm:hidden'} 
+            ${navbar ? 'md:block sm:block display ' : 'md:hidden sm:hidden'} 
             `}
           >
             <ul className="pt-20 text-xl font-sfu ">
-              <li className=" transition-all hover:translate-x-2 py-6 px-10">
+              <li className=" transition-all hover:translate-x-2 py-6 px-10 opacity-100">
                 <a href="">My Work</a>
               </li>
               <li className=" transition-all hover:translate-x-2 py-6 px-10 ">
@@ -107,6 +108,6 @@ export default function Nav() {
           </div>
         </div>
       </div>
-    </nav>
+    </main>
   )
 }

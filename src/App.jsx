@@ -5,7 +5,9 @@ import Script from './components/Script'
 import Projects from './components/projects/Projects'
 import Contact from './components/Contact'
 import Exper from './components/Exper'
+import Footer from "./components/footer/Footer"
 import 'aos/dist/aos.css'
+
 import AOS from 'aos'
 
 function App() {
@@ -14,13 +16,14 @@ function App() {
     AOS.refresh()
   }, [])
   return (
-    <main data-aso="fade-up">
+    <div>
       <Landing />
       <Script />
       <Projects />
       <Exper />
-      <Contact />
-    </main>
+      {/* <Contact /> */}
+      <Footer />
+    </div>
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Experience() {
   return (
-    <section className=" flex justify-center items-center gap-60 h-screen w-full bg-primary py-16 flex-wrap">
+    <main className=" flex justify-center items-center gap-60 h-screen w-full bg-primary py-16 flex-wrap">
       <article>
         <div>
           <h1
@@ -610,6 +610,6 @@ export default function Experience() {
           </g>
         </svg>
       </div>
-    </section>
+    </main>
   )
 }

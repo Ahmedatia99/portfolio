@@ -1,0 +1,13 @@
+@keyframes show {
+  from {
+    transform: translateX(400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .display {
+    animation: show 1s ease-in-out 0s alternate;
+  }
+}
