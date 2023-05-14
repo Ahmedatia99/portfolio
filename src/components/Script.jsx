@@ -2,17 +2,20 @@ import React from 'react'
 
 export default function Script() {
   return (
-    <main className=" flex flex-col justify-center items-center h-screen pt-20  font-sfu">
+    <main className=" flex flex-col justify-center items-center h-screen lg:px-20 md:px-20 sm:px-10 mobile:px-10  font-sfu">
       {/* Design section */}
-      <div className="flex justify-center gap-60 items-center">
+      <div className="flex justify-center lg:gap-60 md:gap-20 sm:gap-5 mobile:gap-5 items-center  md:mx-10 mt-10">
         <article>
           <h1
-            className="text-primary text-6xl font-extrabold mb-5 font-helvetica"
+            className="text-primary lg:text-6xl md:text-5xl sm:text-3xl mobile:text-3xl font-extrabold mb-5 font-helvetica"
             data-aos="fade-right"
           >
             Design
           </h1>
-          <p className="text-fonts max-w-lg" data-aos="fade-up">
+          <p
+            className="text-fonts md:text-base sm:text-sm mobile:text-sm lg:max-w-lg md:max-w-sm"
+            data-aos="fade-up"
+          >
             I'm probably not the typical designer positioned behind an
             Illustrator artboard adjusting pixels, but I design. Immersed in
             stylesheets tweaking font sizes and contemplating layouts is where
@@ -20,16 +23,14 @@ export default function Script() {
             experiences while staying fashionable
           </p>
         </article>
-        <div className="">
+        <div className="lg:block md:block sm:hidden mobile:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="300"
-            height="214"
+            className="w-72 h-72 lg:mr-20 sm:mr-0 "
             viewBox="0 0 523 214"
             data-shape="true"
             aria-hidden="true"
             id="cs-pattern-right"
-            className="mr-20"
           >
             <path
               fill="#4831d4"
@@ -46,8 +47,8 @@ export default function Script() {
         </div>
       </div>
       {/* Engineering Section */}
-      <div className="flex justify-center gap-60 items-center mt-20">
-        <div className=" ">
+      <div className="flex justify-center lg:gap-60 md:gap-20  items-center  md:mx-10 mt-10">
+        <div className="lg:block md:block sm:hidden mobile:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="200"
@@ -69,12 +70,15 @@ export default function Script() {
         </div>
         <article>
           <h1
-            className="text-primary text-6xl font-extrabold mb-5 font-helvetica"
+            className="text-primary lg:text-6xl md:text-5xl sm:text-3xl mobile:text-3xl font-extrabold mb-5 font-helvetica"
             data-aos="fade-right"
           >
             Engineering
           </h1>
-          <p className="text-fonts max-w-lg" data-aos="fade-up">
+          <p
+            className="text-fonts md:text-base sm:text-sm mobile:text-sm lg:max-w-lg md:max-w-sm"
+            data-aos="fade-up"
+          >
             In building JavaScript applications, I'm equipped with just the
             right tools, and can absolutely function independently of them to
             deliver fast, resilient solutions optimized for scale — performance

@@ -2,38 +2,38 @@ import React from 'react'
 
 export default function Experience() {
   return (
-    <main className=" flex justify-center items-center gap-60 h-screen w-full bg-primary py-16 flex-wrap">
-      <article>
+    <main className="flex justify-center items-center lg:gap-52 gap-0 h-screen w-full bg-primary lg:py-16 md:py-16 sm:py-5 mobile:py-5 flex-wrap">
+      <article className="px-10">
         <div>
           <h1
-            className="text-6xl font-extrabold max-w-xs text-morning"
+            className="lg:text-6xl text-4xl font-extrabold max-w-xs text-morning"
             data-aos="flip-left"
           >
             Over the years,
           </h1>
-          <div className="text-sm text-white max-w-sm flex flex-col items-center font-sfu ">
+          <div className="lg:text-sm text-xs text-white lg:max-w-sm md:max-w-xs flex flex-col items-center font-sfu ">
             <p className="py-5" data-aos="fade-down">
               I've built products for companies and businesses around the globe
               ranging from marketing websites to complex solutions and
               enterprise apps with focus on fast, elegant and accessible user
               experiences.
             </p>
-            <p className="pb-5" data-aos="fade-down">
+            <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
               Currently, I work at Shopify as a Senior Frontend Engineer
               crafting thoughtful and inclusive experiences that adhere to web
               standards for over 3 million merchants across the world
             </p>
-            <p className="pb-5" data-aos="fade-down">
+            <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
               . Before now, I was Principal Frontend Engineer at hellotax, where
               I worked on a suite of tools and services tailored towards
               automated VAT compliance for multi-channel sellers in Europe.
             </p>
-            <p className="pb-5" data-aos="fade-down">
+            <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
               Prior to hellotax, I was Senior frontend engineering consultant
               with Pixel2HTML, building JavaScript applications and interfaces
               for orgs and individuals
             </p>
-            <p className="pb-5" data-aos="fade-down">
+            <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
               . I once also led the frontend team at Conectar, an e-learning
               startup through building multiple React applications into a single
               robust learning platform.
@@ -41,14 +41,12 @@ export default function Experience() {
           </div>
         </div>
       </article>
-      <div className="max-w-xl " data-aos="zoom-out">
+      <div className="max-w-xl" data-aos="zoom-out">
         <svg
-          width="600"
-          height="500"
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 1003 722"
-          className="p-3"
+          className="p-3 lg:w-[600px] md:w-96 lg:h-[500px] md:h-96 sm:w-72 mobile:w-72 mobile:h-72 sm:h-72 "
         >
           <path
             fill="none"

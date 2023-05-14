@@ -6,7 +6,7 @@ export default function Nav() {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <main className="bg-background text-white px-20 w-full py-10">
+    <main className="  text-white lg:px-20 md:px-10 sm:px-2 mobile:px-2 w-full lg:py-10 md:py-10 sm:py-5 mobile:py-5">
       <div className=" ">
         <div className="relative">
           {/* Logo  */}
@@ -15,18 +15,18 @@ export default function Nav() {
               <img
                 src={'./images/Logo.png'}
                 alt="A3"
-                className=" h-24 mt-5 pl-16"
+                className=" lg:h-24 md:h-24 sm:h-16 mobile:h-16 lg:mt-5 md:mt-5 sm:mt-0 mobile:mt-0 lg:pl-16 md:pl-0"
               />
             </a>
             <div className="md:block relative z-50">
               <button
-                className="p-2 text-light rounded outline-none focus:border-primary focus:border"
+                className="p-2 text-light rounded outline-none lg:focus:border-primary md:focus:border-primary sm:focus:border-morning mobile:focus:border-morning focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-11 h-11 text-primary"
+                    className="w-11 h-11 lg:text-primary md:text-primary sm:text-morning mobile:text-morning"
                     viewBox="0 0 20 20"
                     fill="currentColor"
                   >
@@ -39,7 +39,7 @@ export default function Nav() {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-11   h-11 text-primary"
+                    className="w-11   h-11 lg:text-primary md:text-primary sm:text-morning mobile:text-morning"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -56,11 +56,15 @@ export default function Nav() {
             </div>
           </div>
           <div
-            className={` opacity-100 flex justify-center items-center flex-col bg-white absolute top-0 right-0 z-40 text-primary mt-7 w-80 md:block rounded-lg
-            ${navbar ? 'md:block sm:block display ' : 'md:hidden sm:hidden'} 
+            className={`opacity-100 flex justify-center items-center flex-col bg-white absolute top-0 right-0 z-40 text-primary mt-7 w-80 md:block rounded-lg
+            ${
+              navbar
+                ? ' lg:block md:block sm:block mobile:block display'
+                : 'lg:hidden md:hidden sm:hidden mobile:hidden '
+            } 
             `}
           >
-            <ul className="pt-20 text-xl font-sfu ">
+            <ul className="pt-20 text-xl font-sfu w-full">
               <li className=" transition-all hover:translate-x-2 py-6 px-10 opacity-100">
                 <a href="">My Work</a>
               </li>
@@ -79,7 +83,7 @@ export default function Nav() {
               <li className="  transition-all hover:translate-x-2 px-10 py-4 pb-6">
                 <a href="">Connect a wallet</a>
               </li>
-              <div className="flex justify-center bg-primary p-5 rounded-md">
+              <div className="flex justify-center bg-primary p-5 rounded-md ">
                 <a
                   className=" text-white mr-5"
                   href="https://www.freelancer.com/u/atia99"
