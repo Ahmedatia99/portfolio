@@ -1,19 +1,20 @@
-import React from 'react'
-import { useState } from 'react'
-import './nav.css'
+import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import "./nav.css";
 
 export default function Nav() {
-  const [navbar, setNavbar] = useState(false)
+  const [navbar, setNavbar] = useState(false);
 
   return (
-    <main className="  text-white lg:px-20 md:px-10 sm:px-2 mobile:px-2 w-full lg:py-10 md:py-10 sm:py-5 mobile:py-5">
+    <main className="  text-white lg:px-20 md:px-10 sm:px-2 mobile:px-2 w-full lg:py-10 md:py-10 sm:py-5 mobile:py-5 bg-transparent">
       <div className=" ">
         <div className="relative">
           {/* Logo  */}
           <div className="flex justify-between items-center">
             <a href="./Home" className="flex">
               <img
-                src={'./images/Logo.png'}
+                src={"./images/Logo.png"}
                 alt="A3"
                 className=" lg:h-24 md:h-24 sm:h-16 mobile:h-16 lg:mt-5 md:mt-5 sm:mt-0 mobile:mt-0 lg:pl-16 md:pl-0"
               />
@@ -59,19 +60,17 @@ export default function Nav() {
             className={`opacity-100 flex justify-center items-center flex-col bg-white absolute top-0 right-0 z-40 text-primary mt-7 w-80 md:block rounded-lg
             ${
               navbar
-                ? ' lg:block md:block sm:block mobile:block display'
-                : 'lg:hidden md:hidden sm:hidden mobile:hidden '
+                ? " lg:block md:block sm:block mobile:block display"
+                : "lg:hidden md:hidden sm:hidden mobile:hidden "
             } 
             `}
           >
             <ul className="pt-20 text-xl font-sfu w-full">
               <li className=" transition-all hover:translate-x-2 py-6 px-10 opacity-100">
-                <a href="">My Work</a>
+                <Link to={"/projects"}>My Work</Link>
               </li>
               <li className=" transition-all hover:translate-x-2 py-6 px-10 ">
-                <a href="" className="">
-                  Skills
-                </a>
+                <Link to={"/skill"}>Skills</Link>
               </li>
               <hr className="mx-5"></hr>
               <li className="  py-6 px-10 pb-3 text-gray-400 ">
@@ -92,7 +91,7 @@ export default function Nav() {
                     className=" w-8 h-8"
                     src="./images/freelancer-icon.svg"
                   />
-                </a>{' '}
+                </a>{" "}
                 <a
                   href="https://twitter.com/ahmedatiaa99"
                   className="mr-6 text-caption "
@@ -113,5 +112,5 @@ export default function Nav() {
         </div>
       </div>
     </main>
-  )
+  );
 }

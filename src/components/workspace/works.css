@@ -1,0 +1,6 @@
+.dots {
+	background-image: radial-gradient(theme("colors.morning") 5%, transparent 0%);
+	background-color: #F5F4FC;
+	background-position: 0 0, 0 0;
+	background-size: 15px 15px;
+  }

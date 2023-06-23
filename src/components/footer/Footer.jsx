@@ -40,7 +40,7 @@ export default function Footer() {
               <span className="border-b-2 border-morning py-5 relative  effect">
                 +0201117910989
               </span>
-              <p className="py-5 text-xl text-gray-500  font-mono ">
+              <p className="py-5 text-xl text-gray-200  font-mono ">
                 {' '}
                 Cairo | Egypt
               </p>
@@ -108,7 +108,7 @@ export default function Footer() {
           “Without creativity we fail.”
         </h1>
         <hr className="mt-20 sm:mt-10 mobile:mt-10 w-full container border-t-2 border-primary" />
-        <div className="bg-action py-3  text-center flex justify-center font-boldk">
+        <div className="bg-action py-3  text-center flex justify-center font-bold">
           <span className="flex justify-center items-center desktop:text-lg mobile:text-xs">
             Made With{'  '}
             <img src="./images/heart.svg" className=" w-3 h-3 mx-1" />

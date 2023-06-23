@@ -7,12 +7,15 @@
   height: 100%;
   background: theme('colors.primary');
   transition: all 0.35s;
+  border-radius: 10px;
 }
 
-.link:hover {
+.link:hover,
+.link:hover > span {
   color: #fff;
 }
-.link:hover > svg {
+.link:hover > svg
+ {
   stroke: #fff;
 }
 

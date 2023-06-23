@@ -1,16 +1,16 @@
 .over {
-  background: linear-gradient(90deg, #4831d4 67%, #ccf381 33%);
+  background: linear-gradient(90deg, theme("colors.primary") 60%, theme("colors.morning") 33%);
 }
 .over-mob {
-  background: linear-gradient(180deg, #4831d4 60%, #ccf381 33%);
+  background: linear-gradient(180deg, theme("colors.primary") 60%, theme("colors.morning") 33%);
 }
 @media (max-width: 320px) {
   .over {
-    background: linear-gradient(180deg, #4831d4 60%, #ccf381 33%);
+    background: linear-gradient(180deg, theme("colors.primary") 60%, theme("colors.morning") 33%);
   }
 }
 @media (max-width: 640px) {
   .over {
-    background: linear-gradient(180deg, #4831d4 60%, #ccf381 33%);
+    background: linear-gradient(180deg, theme("colors.primary") 60%, theme("colors.morning") 33%);
   }
 }

@@ -4,11 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#4831d4" ,
-        morning: "#ccf381",
+        primary: "#4142e6",
+        morning: "#f6d45d",
         fonts: "#3d155f",
         supcolor: "#F9F9F9",
-        footer: "#3d155f"
+        footer: "#3d155f",
+        work: "#f5f4fc"
       },
       fontFamily: {
         helvetica: ["helvetica"],
