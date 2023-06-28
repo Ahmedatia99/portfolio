@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import DefaultLayout from "./layouts/DefaultLayout";
 import { Home } from "./pages/Home";
-import Skills from "./pages/Skills";
+import Skills from "./pages/skills/Skills";
 
 function App() {
   useEffect(() => {

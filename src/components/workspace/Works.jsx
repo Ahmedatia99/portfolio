@@ -5,7 +5,7 @@ import "./works.css";
 import "../projects/projects.css";
 export default function Works() {
   return (
-    <main className=" relative dots w-screen p-32">
+    <main className="relative dots w-screen tablet:p-32 mobile:p-5">
       <div className="tablet:pb-20 mobile:mb-5" data-aos="fade-down">
         <h1 className=" text-primary tablet:text-6xl mobile:text-4xl font-bold font-mono text-center tablet:mb-5 mobile:mb-0">
           Projects
@@ -20,7 +20,7 @@ export default function Works() {
                 className="up relative max-w-full flex justify-center items-center m-5 bg-white px-20 py-32 flex-col rounded-2xl transition-all shadow-xl  "
                 key={project.num}
               >
-                <img src={project.imageUrl} className="w-36 h-24" />
+                <img src={project.imageUrl} className="w-36 h-24"/>
                 <div className="hov absolute bottom-0 py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
                   <a href={project.link} target="blank">
                     {" "}
@@ -32,11 +32,11 @@ export default function Works() {
           })}
         </div>
       </section>
-      <section className="flex justify-center items-center tablet:mt-20  mobile:mt-5 transition-all">
+      <section className="flex  justify-center items-center transition-all">
         <Link
           data-aos="fade-right"
           to={"/"}
-          className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-10 py-3 border-solid border-primary border-[1px] rounded-xl tablet:mr-10 mobile:mr-2"
+          className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-5 py-3 border-solid border-primary border-[1px] rounded-xl tablet:mr-10 mobile:mr-2"
         >
           <svg
             className="svg-icon w-6 h-6 z-30 stroke-primary mr-3"
@@ -49,7 +49,7 @@ export default function Works() {
         <Link
           data-aos="fade-left"
           to={"/skill"}
-          className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-10 py-3 border-solid border-primary border-[1px] rounded-xl tablet:ml-10 mobile:ml-5"
+          className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-5 py-3 border-solid border-primary border-[1px] rounded-xl tablet:ml-10 mobile:ml-5"
         >
           <svg
             className="svg-icon w-6 h-6 z-30 stroke-primary mr-3"
