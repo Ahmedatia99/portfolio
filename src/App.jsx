@@ -15,7 +15,7 @@ function App() {
   }, []);
   return (
     <div>
-      {/* */}
+      {/* ROutes between pages*/}
       <Routes>
         <Route path="/" element={<DefaultLayout />}>
           <Route path="/" element={<Home />} />
