@@ -13,9 +13,9 @@ export default function Info() {
         <div className="flex flex-col justify-between items-start ">
           <h1 className="text-morning lg:text-7xl md:text-5xl sm:text-4xl mobile:text-4xl font-extrabold leading-tight">
             Frontend Developer
-            <span className="text-white font-sfu ">.</span>
+            <span className="text-white font-mono ">.</span>
           </h1>
-          <p className="text-white my-3 lg:text-xl sm:text-base font-sfu">
+          <p className="text-white my-3 lg:text-xl sm:text-base font-mono">
             I like to craft solid and scalable frontend products with great user
             experiences.
           </p>

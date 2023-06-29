@@ -1,5 +1,5 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 export default function Footer() {
   return (
     <main className="  h-screen w-full flex flex-col justify-start items-center font-helvetica text-morning ">
@@ -13,16 +13,20 @@ export default function Footer() {
           <div className="text-3xl relative block effect border-b-2 border-morning ">
             <a
               className="relative text-morning  hover:translate-y-1 inline-block  p-5"
-              href="##"
+              href="/"
             >
               atia.com
             </a>
           </div>
           {/* hidden button in small screen*/}
           <div className="lg:block md:hidden sm:hidden mobile:hidden">
-            <button className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold ">
+          <a
+              href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
+              target="blank"
+              className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold "
+            >
               Text Me
-            </button>
+            </a>
           </div>
 
           <article className="flex  justify-center items-center  text-3xl lg:mr-0 mr-20 sm:mr-10 mobile:mr-10">
@@ -41,35 +45,39 @@ export default function Footer() {
                 +0201117910989
               </span>
               <p className="py-5 text-xl text-gray-200  font-mono ">
-                {' '}
+                {" "}
                 Cairo | Egypt
               </p>
             </div>
           </article>
 
           <div className=" lg:hidden md:block sm:block">
-            <button className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold ">
+            <a
+              href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
+              target="blank"
+              className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold "
+            >
               Text Me
-            </button>
+            </a>
           </div>
         </div>
         <hr className="mt-20 sm:mt-10 mobile:mt-10 w-full container border-t-2 border-morning" />
         {/* social links */}
         <div className="container">
           <ul className="flex justify-between items-center p-10 sm:p-0 mobile:p-0 sm:py-10 mobile:py-10">
-            <li className="border-2 border-morning rounded-3xl hover:translate-y-1 p-2">
+            <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
               <a href="https://web.facebook.com/ahmedatiaa74" target="blank">
                 <img className="w-7" src="./images/facebook.svg" />
               </a>
             </li>
-            <li className="border-2 border-morning rounded-3xl hover:translate-y-1 p-2">
-              {' '}
+            <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
+              {" "}
               <a href="//www.instagram.com/ahmedatiaa99/" target="blank">
                 <img src="./images/InstagramLogo.svg" />
               </a>
             </li>
-            <li className="border-2 border-morning rounded-3xl hover:translate-y-1 p-2">
-              {' '}
+            <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
+              {" "}
               <a
                 href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
                 target="blank"
@@ -77,16 +85,16 @@ export default function Footer() {
                 <img className="w-7" src="./images/linkedin.svg" />
               </a>
             </li>
-            <li className="border-2 border-morning rounded-3xl hover:translate-y-1 p-2">
-              {' '}
+            <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
+              {" "}
               <a href="https://twitter.com/ahmedatiaa99" target="blank">
                 <img src="./images/TwitterLogo.svg" />
               </a>
             </li>
-            <li className="border-2 border-morning rounded-3xl hover:translate-y-1 p-2">
-              {' '}
+            <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
+              {" "}
               <a href="https://www.freelancer.com/u/atia99" target="blank">
-                {' '}
+                {" "}
                 <svg
                   viewBox="0 0 24 24"
                   className="w-7 text-white"
@@ -110,19 +118,19 @@ export default function Footer() {
         <hr className="mt-20 sm:mt-10 mobile:mt-10 w-full container border-t-2 border-primary" />
         <div className="bg-action py-3  text-center flex justify-center font-bold">
           <span className="flex justify-center items-center desktop:text-lg mobile:text-xs">
-            Made With{'  '}
+            Made With{"  "}
             <img src="./images/heart.svg" className=" w-3 h-3 mx-1" />
-            By{' '}
+            By{" "}
             <a
               className="lg:text-lg mobile:text-base text-footer  mx-1 flex justify-center"
               href="https://www.freelancer.com/u/atia99"
             >
               Ahmed Atia
-            </a>{' '}
+            </a>{" "}
             © 2023
           </span>
         </div>
       </div>
     </main>
-  )
+  );
 }

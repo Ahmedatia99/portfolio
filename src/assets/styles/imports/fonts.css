@@ -11,26 +11,10 @@
   src: url('./webfonts/Helvetica/semi\ bold.ttf');
 }
 @font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfonts/sfu/SFUIText-Bold.ttf');
+  font-family: 'space Mono';
+  src: url('./webfonts/mono/SpaceMono-Regular.ttf');
 }
 @font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfonts/sfu/SFUIText-Heavy.ttf');
-}
-@font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfonts/sfu/SFUIText-Light.ttf');
-}
-@font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfonts/sfu/SFUIText-Medium.ttf');
-}
-@font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfont/sfu/SFUIText-Regular.ttf');
-}
-@font-face {
-  font-family: 'SF UI Text';
-  src: url('./webfonts/sfu/SFUIText-Semibold.ttf');
+  font-family: 'space Mono';
+  src: url('./webfonts/mono/SpaceMono-Bold.ttf');
 }

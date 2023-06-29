@@ -11,7 +11,7 @@ export default function Experience() {
           >
             Over the years,
           </h1>
-          <div className="lg:text-sm text-xs text-white lg:max-w-sm md:max-w-xs flex flex-col items-center font-sfu ">
+          <div className="lg:text-sm text-xs text-white lg:max-w-sm md:max-w-xs flex flex-col items-center font-mono">
             <p className="py-5" data-aos="fade-down">
               I've built products for companies and businesses around the globe
               ranging from marketing websites to complex solutions and

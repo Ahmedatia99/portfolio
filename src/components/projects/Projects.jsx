@@ -20,7 +20,7 @@ export default function Projects() {
         <div>
           <Link
             to={"/projects"}
-            className="link relative transition-all flex items-center justify-between mx-auto  mt-10 px-16  lg:py-3 md:py-3 sm:py-1 mobile:py-1 border-solid border-primary border-[1px] text-primary font-bold font-sfu rounded-xl"
+            className="link relative transition-all flex items-center justify-between mx-auto  mt-10 px-16  lg:py-3 md:py-3 sm:py-1 mobile:py-1 border-solid border-primary border-[1px] text-primary font-bold rounded-xl"
           >
             <span className="mr-3 relative z-20 tablet:text-lg mobile:text-base">
               see my work

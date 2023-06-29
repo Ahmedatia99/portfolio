@@ -65,7 +65,7 @@ export default function Nav() {
             } 
             `}
           >
-            <ul className="pt-20 text-xl font-sfu w-full">
+            <ul className="pt-20 text-xl font-mono w-full">
               <li className=" transition-all hover:translate-x-2 py-6 px-10 opacity-100">
                 <Link to={"/projects"}>My Work</Link>
               </li>

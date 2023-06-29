@@ -1,5 +1,11 @@
 [
     {
+        "imageUrl": "../../../public/images/d99 logo.svg",
+        "link": "https://web-client-silk.vercel.app/",
+        "name": "Developers99",
+        "num": 6
+    },
+    {
         "num": 1,
         "imageUrl": "../../../public/images/Storefront-logo.svg",
         "link": "https://nft.atia.dev/",
@@ -28,11 +34,5 @@
         "link": "https://bondi-ahmedatia99.vercel.app/",
         "name": "Bondi",
         "num": 5
-    },
-    {
-        "imageUrl": "../../../public/images/d99 logo.svg",
-        "link": "https://web-client-silk.vercel.app/",
-        "name": "Developers99",
-        "num": 6
     }
 ]

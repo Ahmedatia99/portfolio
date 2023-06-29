@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Script() {
   return (
-    <main className=" flex flex-col justify-center items-center h-screen lg:px-20 md:px-20 sm:px-10 mobile:px-10  font-sfu">
+    <main className=" flex flex-col justify-center items-center h-screen lg:px-20 md:px-20 sm:px-10 mobile:px-10  font-mono">
       {/* Design section */}
       <div className="flex justify-center lg:gap-60 md:gap-20 sm:gap-5 mobile:gap-5 items-center  md:mx-10 mt-10">
         <article>
