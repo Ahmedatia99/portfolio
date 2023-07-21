@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <main className="h-screen w-full relative flex justify-center items-center bg-supcolor py-32">
-      <div className="animation-container">
+      <div className="animation-container lg:block md:block mobile:hidden sm:hidden">
         <div className="lightning-container">
           <div className="lightning white"></div>
           <div className="lightning red"></div>

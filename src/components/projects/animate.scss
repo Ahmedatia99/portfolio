@@ -264,3 +264,23 @@
       }
     }
   }
+  @media (min-width: 640px) {
+    .animation-container {
+        display: none;
+    }
+}
+@media (min-width: 320px) {
+  .animation-container {
+      display: none;
+  }
+}
+@media (min-width: 768px) {
+  .animation-container {
+      display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .animation-container {
+      display: block;
+  }
+}

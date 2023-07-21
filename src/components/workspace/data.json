@@ -24,7 +24,7 @@
         "num": 3
     },
     {
-        "imageUrl": "./images/rock.jpg",
+        "imageUrl": "./images/rock-paper-scissors.png",
         "link": "https://rock-game-one.vercel.app/",
         "name": "Rock game",
         "num": 4
