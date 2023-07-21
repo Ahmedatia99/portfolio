@@ -82,7 +82,7 @@ export default function Info() {
           data-aos-easing="linear"
         >
           {" "}
-          <img src="./images/main3.jpg" alt="ahmed atia" className="" />
+          <img src="./images/perfecto.jpg" alt="ahmed atia" className="" />
         </div>
       </div>
 

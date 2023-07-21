@@ -1,9 +1,29 @@
 import React from "react";
 import "./projects.css";
+import "./animate.scss";
 import { Link } from "react-router-dom";
 export default function Projects() {
   return (
     <main className="h-screen w-full relative flex justify-center items-center bg-supcolor py-32">
+      <div className="animation-container">
+        <div className="lightning-container">
+          <div className="lightning white"></div>
+          <div className="lightning red"></div>
+        </div>
+        <div className="boom-container">
+          <div className="shape circle big white"></div>
+          <div className="shape circle white"></div>
+          <div className="shape triangle big yellow"></div>
+          <div className="shape disc white"></div>
+          <div className="shape triangle blue"></div>
+        </div>
+        <div className="boom-container second">
+          <div className="shape circle big white"></div>
+          <div className="shape circle white"></div>
+          <div className="shape disc white"></div>
+          <div className="shape triangle blue"></div>
+        </div>
+      </div>
       <div className="lg:p-28 p-10 bg-white absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 border-4 border-primary">
         <h1
           className="text-primary lg:text-5xl md:text-4xl sm:text-3xl mobile:text-3xl font-extrabold max-w-xs sm:w-full mobile:w-full"

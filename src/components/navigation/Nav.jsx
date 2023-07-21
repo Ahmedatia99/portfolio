@@ -77,7 +77,12 @@ export default function Nav() {
                 <a href="">say Hello </a>
               </li>
               <li className="  transition-all hover:translate-x-2 px-10  py-4">
-                <a href="https://www.freelancer.com/u/atia99">Ahmed Atia</a>
+                <a
+                  href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
+                  target="blank"
+                >
+                  Ahmed Atia
+                </a>
               </li>
               <li className="  transition-all hover:translate-x-2 px-10 py-4 pb-6">
                 <a href="">Connect a wallet</a>
@@ -85,12 +90,10 @@ export default function Nav() {
               <div className="flex justify-center bg-primary p-5 rounded-md ">
                 <a
                   className=" text-white mr-5"
-                  href="https://www.freelancer.com/u/atia99"
+                  href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
+                  target="blank"
                 >
-                  <img
-                    className=" w-8 h-8"
-                    src="./images/freelancer-icon.svg"
-                  />
+                  <img className=" w-5 h-5 my-2" src="./images/linkedin.svg" />
                 </a>{" "}
                 <a
                   href="https://twitter.com/ahmedatiaa99"

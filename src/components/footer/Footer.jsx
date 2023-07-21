@@ -1,10 +1,11 @@
 import React from "react";
 import "./footer.css";
+import "./massage.scss";
 export default function Footer() {
   return (
     <main className="  h-screen w-full flex flex-col justify-start items-center font-helvetica text-morning ">
-      <div className="  w-full flex flex-col justify-start items-center font-helvetica text-morning bg-primary">
-        <div className="container  text-5xl  font-extrabold lg:my-20 my-10 w-full flex justify-center items-center lg:mr-36 md:mr-0 ">
+      <div className="  w-full flex flex-col justify-start items-center font-helvetica text-morning bg-footer">
+        <div className="container  text-5xl  font-extrabold lg:my-14 my-14 w-full flex justify-center items-center lg:mr-36 md:mr-0 ">
           <h1>Let’s start</h1>
         </div>
         {/* section 2 */}
@@ -20,15 +21,28 @@ export default function Footer() {
           </div>
           {/* hidden button in small screen*/}
           <div className="lg:block md:hidden sm:hidden mobile:hidden">
-          <a
+            <a
               href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
               target="blank"
-              className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold "
             >
-              Text Me
+              <div className="letter-image">
+                <div className="animated-mail">
+                  <div className="back-fold"></div>
+                  <div className="letter">
+                    <div className="letter-border"></div>
+                    <div className="letter-title"></div>
+                    <div className="letter-context"></div>
+                    <div className="letter-stamp">
+                      <div className="letter-stamp-inner"></div>
+                    </div>
+                  </div>
+                  <div className="top-fold"></div>
+                  <div className="body"></div>
+                  <div className="left-fold"></div>
+                </div>
+              </div>
             </a>
           </div>
-
           <article className="flex  justify-center items-center  text-3xl lg:mr-0 mr-20 sm:mr-10 mobile:mr-10">
             <div className="clock mx-5 sm:mx-2 mobile:mx-2">
               <div className="hourhand"></div>
@@ -50,21 +64,11 @@ export default function Footer() {
               </p>
             </div>
           </article>
-
-          <div className=" lg:hidden md:block sm:block">
-            <a
-              href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
-              target="blank"
-              className=" transition-all  border-2 border-morning border-solid py-4 px-12 rounded-3xl hover:bg-morning hover:text-footer text-2xl font-semibold "
-            >
-              Text Me
-            </a>
-          </div>
         </div>
         <hr className="mt-20 sm:mt-10 mobile:mt-10 w-full container border-t-2 border-morning" />
         {/* social links */}
         <div className="container">
-          <ul className="flex justify-between items-center p-10 sm:p-0 mobile:p-0 sm:py-10 mobile:py-10">
+          <ul className="flex justify-between items-center p-5 sm:p-0 mobile:p-0 sm:py-5 mobile:py-5">
             <li className="border-2 border-morning rounded-3xl hover:scale-105  p-2 transition-all">
               <a href="https://web.facebook.com/ahmedatiaa74" target="blank">
                 <img className="w-7" src="./images/facebook.svg" />
@@ -111,13 +115,9 @@ export default function Footer() {
         </div>
       </div>
       {/* section comment */}
-      <div className=" bg-morning h-full w-full flex flex-col justify-start items-center text-primary lg:py-20 md:py-20 sm:py-10 mobile:py-10">
-        <h1 className="lg:text-3xl md:text-3xl sm:text-xl mobile:text-xl font-bold">
-          “Without creativity we fail.”
-        </h1>
-        <hr className="mt-20 sm:mt-10 mobile:mt-10 w-full container border-t-2 border-primary" />
-        <div className="bg-action py-3  text-center flex justify-center font-bold">
-          <span className="flex justify-center items-center desktop:text-lg mobile:text-xs">
+      <div className="  relative bg-footer h-full w-full text-morning lg:pt-20 md:pt-20 sm:pt-10 mobile:pt-10">
+        <div className="bg-action py-3 flex items-center justify-center font-bold">
+          <span className=" text-footer w-full border-t-2 border-morning flex justify-center items-center desktop:text-xl mobile:text-xs absolute bottom-0 py-10 bg-morning">
             Made With{"  "}
             <img src="./images/heart.svg" className=" w-3 h-3 mx-1" />
             By{" "}

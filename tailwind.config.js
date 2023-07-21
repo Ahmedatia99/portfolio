@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#4142e6",
-        morning: "#f6d45d",
+        primary: "#4831d4",
+        morning: "#ccf381",
         fonts: "#3d155f",
         supcolor: "#F9F9F9",
         footer: "#3d155f",
