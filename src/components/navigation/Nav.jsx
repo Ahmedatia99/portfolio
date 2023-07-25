@@ -85,7 +85,12 @@ export default function Nav() {
                 </a>
               </li>
               <li className="  transition-all hover:translate-x-2 px-10 py-4 pb-6">
-                <a href="">Connect a wallet</a>
+                <a
+                  href="https://www.paypal.com/paypalme/ahmedatiaa99/"
+                  target="blank"
+                >
+                  Connect a wallet
+                </a>
               </li>
               <div className="flex justify-center bg-primary p-5 rounded-md ">
                 <a
