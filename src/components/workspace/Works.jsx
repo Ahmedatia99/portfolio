@@ -12,22 +12,27 @@ export default function Works() {
         </h1>
       </div>
       <section>
-        <div className="grid desktop:grid-cols-2 tablet:grid-cols-2 mobile:grid-cols-1 cursor-pointer">
+        <div className="grid desktop:grid-cols-2 tablet:grid-cols-2 mobile:grid-cols-1 cursor-pointer gap-5">
           {data.map((project) => {
             return (
-              <section
-                data-aos="fade-right"
-                className="up relative max-w-full flex justify-center items-center m-5 bg-white px-20 py-32 flex-col rounded-2xl transition-all shadow-xl  "
-                key={project.num}
-              >
-                <img src={project.imageUrl} className="w-36 h-24" />
-                <div className="hov absolute bottom-0 py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
+              <main className="up max-w-full flex justify-end bg-white  flex-col rounded-2xl transition-all shadow-xl">
+                <div
+                  data-aos="fade-right"
+                  className="flex justify-center py-10"
+                  key={project.num}
+                >
+                  <img
+                    src={project.imageUrl}
+                    className="max-w-sm rounded-xl border-2 border-gray-100"
+                  />
+                </div>
+                <div className="hov py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
                   <a href={project.link} target="blank">
                     {" "}
                     {project.name}
                   </a>
                 </div>
-              </section>
+              </main>
             );
           })}
         </div>
