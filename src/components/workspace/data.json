@@ -1,8 +1,8 @@
 [
     {
-        "imageUrl": "./images/d99 logo.svg",
-        "link": "https://web-client-silk.vercel.app/",
-        "name": "Developers99",
+        "imageUrl": "./images/nexteme.png",
+        "link": "https://www.nexteme.com/",
+        "name": "Nexteme",
         "num": 6
     },
     {
@@ -30,9 +30,9 @@
         "num": 4
     },
     {
-        "imageUrl": "./images/bondi.png",
-        "link": "https://bondi-ahmedatia99.vercel.app/",
-        "name": "Bondi",
+        "imageUrl": "./images/white.svg",
+        "link": "https://www.slscenters.com/",
+        "name": "SLS",
         "num": 5
     }
 ]
