@@ -23,7 +23,7 @@ export default function Works() {
                 >
                   <img
                     src={project.imageUrl}
-                    className="max-w-sm rounded-xl border-2 border-gray-100"
+                    className="max-w-sm rounded-xl border-2 border-gray-100`"
                   />
                 </div>
                 <div className="hov py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
