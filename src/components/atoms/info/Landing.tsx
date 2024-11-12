@@ -3,7 +3,7 @@ import "./land.css";
 import Nav from "../../navigation/Nav";
 export default function Info() {
   return (
-    <section className="container flex lg:flex-row md:flex-row sm:flex-col mobile:flex-col justify-between items-center lg:my-10 md:my-10 sm:my-10 mobile:my-10 lg:mx-0 md:mx-5 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
+    <section className="gap-10 container flex lg:flex-row md:flex-row sm:flex-col mobile:flex-col justify-between items-center lg:my-10 md:my-10 sm:my-10 mobile:my-10 lg:mx-0 md:mx-5 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
       {/* info section */}
       <article
         className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-cente lg:px-0 md:px-0 sm:px-10 mobile:px-10"
@@ -20,7 +20,7 @@ export default function Info() {
             experiences.
           </p>
         </div>
-        <div className="flex justify-between items-center lg:gap-10 md:gap-10 sm:gap-3 mobile:gap-3 lg:text-sm md:text-sm sm:text-xs mobile:text-xs text-morning lg:mt-20 md:mt-20 sm:mt-0 mobile:mt-0 w-full ">
+        <div className="mobile:hidden md:flex justify-between items-center lg:gap-10 md:gap-10 sm:gap-3 mobile:gap-3 lg:text-sm md:text-sm sm:text-xs mobile:text-xs text-morning lg:mt-20 md:mt-20 sm:mt-0 mobile:mt-0 w-full ">
           <p className="lg:max-w-sm md:max-w-sm sm:w-full mobile:w-full">
             Highly skilled at progressive enhancement, design systems & UI
             Engineering.
@@ -75,19 +75,14 @@ export default function Info() {
           </svg>
         </div>
         <div className=" bg-transparent lg:w-80 md:w-60 lg:h-80 md:h-60  absolute top-7 right-12  border-2 border-white border-solid "></div>
-        <div
-          className="lg:max-w-xs md:max-w-[250px] relative z-20 mr-20 object-fill"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-easing="linear"
-        >
+        <div className="lg:max-w-xs md:max-w-[250px] relative z-20 mr-20 object-fill">
           {" "}
           <img src="./images/perfecto.jpg" alt="ahmed atia" className="" />
         </div>
       </div>
 
       {/* mobile */}
-      <div className="relative lg:hidden md:hidden sm:flex mobile:flex lg:mr-20 md:0 mt-20 bg-morning ">
+      <div className="relative lg:hidden md:hidden sm:flex mobile:flex lg:mr-20 md:0 sm:mt-10 md:mt-2q0 bg-morning ">
         <div className="absolute z-10 -right-14 -top-20 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -130,8 +125,8 @@ export default function Info() {
           </svg>
         </div>
         <div className=" bg-transparent w-52 h-52 absolute top-1 -right-5  border  border-white border-solid "></div>
-        <div className=" sm:max-w-[200px] mobile:max-w-[200px] sm:h-[200px] mobile:h-[200px]relative z-20">
-          <img src="./images/main3.jpg" alt="ahmed atia" />
+        <div className=" w-[200px] relative z-20">
+          <img src="./images/perfecto.jpg" alt="ahmed atia" />
         </div>
       </div>
     </section>

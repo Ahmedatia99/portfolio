@@ -1,8 +1,8 @@
 [
     {
         "imageUrl": "./images/nexteme.png",
-        "link": "https://www.nexteme.com/",
-        "name": "Nexteme",
+        "link": "https://estatein-one.vercel.app/",
+        "name": "EStatien",
         "id": 6
     },
     {
@@ -12,15 +12,15 @@
         "name": "Place Market"
     },
     {
-        "imageUrl": "./images/kasper.png",
-        "link": "https://kasper-project.vercel.app/",
-        "name": "Kasper",
+        "imageUrl": "./images/wallpaper.png",
+        "link": "https://portfolio-ahmed-atias-projects-647e742a.vercel.app/",
+        "name": "A3",
         "id": 2
     },
     {
         "imageUrl": "./images/snappify logo.png",
-        "link": "https://snappify-cyan.vercel.app/",
-        "name": "snappify",
+        "link": "https://study-sphere-alpha.vercel.app/",
+        "name": "Study Sphere",
         "id": 3
     },
     {
@@ -30,9 +30,9 @@
         "id": 4
     },
     {
-        "imageUrl": "./images/sls.png",
-        "link": "https://www.slscenters.com/",
-        "name": "SLS",
+        "imageUrl": "./images/bondi.png",
+        "link": "https://next-ecommerce-seven-lovat.vercel.app/",
+        "name": "Lama",
         "id": 5
     }
 ]

@@ -17,14 +17,12 @@ export default function Works() {
             return (
               <main className="up max-w-full flex justify-end bg-white  flex-col rounded-2xl transition-all shadow-xl">
                 <div
-                  data-aos="fade-right"
-                  className="flex justify-center py-10"
+                  className="flex justify-center items-center py-10"
                   key={project.id}
-                  
                 >
                   <img
                     src={project.imageUrl}
-                    className="max-w-sm rounded-xl border-2 border-gray-100`"
+                    className="w-[350px] md:w-[200px] lg:w-[300px]  rounded-xl border-2 border-gray-100`"
                   />
                 </div>
                 <div className="hov py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
@@ -38,7 +36,7 @@ export default function Works() {
           })}
         </div>
       </section>
-      <section className="flex justify-center items-center transition-all mt-10">
+      <section className="flex justify-center items-center transition-all mt-10 py-10">
         <Link
           to={"/"}
           className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-5 py-3 border-solid border-primary border-[1px] rounded-xl tablet:mr-10 mobile:mr-2"

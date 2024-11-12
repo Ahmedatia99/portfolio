@@ -5,7 +5,7 @@ import "../../components/workspace/works.css";
 export default function Skills() {
   return (
     <main className="over w-screen h-screen relative">
-      <section className="dots desktop:max-w-3xl tablet:max-w-xl mobile:w-full mobile:h-full tablet:h-auto p-5 tablet:absolute tablet:top-2/4 tablet:left-0 tablet:translate-x-2/4 tablet:-translate-y-2/4 tablet:rounded-xl mobile:rounded-none mobile:pt-20 tablet:pt-5">
+      <section className="dots desktop:max-w-3xl tablet:max-w-xl mobile:w-full h-full tablet:h-auto p-5 tablet:absolute tablet:top-2/4 tablet:left-0 tablet:translate-x-2/4 tablet:-translate-y-2/4 tablet:rounded-xl mobile:rounded-none mobile:pt-10 tablet:pt-5">
         <div className="flex justify-center items-center pb-3">
           <Link to={"/projects"}>
             <svg
