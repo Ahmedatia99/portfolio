@@ -1,7 +1,7 @@
 import React from "react";
 import Feature from "../../components/atoms/skill/Feature";
-import "../../components/atoms/info/Landing";
 import { Link } from "react-router-dom";
+import "../../components/workspace/works.css";
 export default function Skills() {
   return (
     <main className="over w-screen h-screen relative">
@@ -30,6 +30,7 @@ export default function Skills() {
         <Feature name=" Preprocessor - (SCSS, SASS)" dataval="92" value="92" />
         <Feature name="javascript" dataval="80" value="80" />
         <Feature name="react.js" dataval="95" value="95" />
+        <Feature name="NExt.js" dataval="80" value="80" />
         <Feature name="tailwind" dataval="100" value="100" />
         <Feature name="Bootstrap" dataval="100" value="100" />
         <Feature name="Typescript" dataval="70" value="70" />

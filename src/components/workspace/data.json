@@ -3,10 +3,10 @@
         "imageUrl": "./images/nexteme.png",
         "link": "https://www.nexteme.com/",
         "name": "Nexteme",
-        "num": 6
+        "id": 6
     },
     {
-        "num": 1,
+        "id": 1,
         "imageUrl": "./images/nft.png",
         "link": "https://place-m.vercel.app/",
         "name": "Place Market"
@@ -15,24 +15,24 @@
         "imageUrl": "./images/kasper.png",
         "link": "https://kasper-project.vercel.app/",
         "name": "Kasper",
-        "num": 2
+        "id": 2
     },
     {
         "imageUrl": "./images/snappify logo.png",
         "link": "https://snappify-cyan.vercel.app/",
         "name": "snappify",
-        "num": 3
+        "id": 3
     },
     {
         "imageUrl": "./images/rock-paper-scissors.png",
         "link": "https://rock-game-one.vercel.app/",
         "name": "Rock game",
-        "num": 4
+        "id": 4
     },
     {
         "imageUrl": "./images/sls.png",
         "link": "https://www.slscenters.com/",
         "name": "SLS",
-        "num": 5
+        "id": 5
     }
 ]

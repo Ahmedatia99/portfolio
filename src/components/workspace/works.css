@@ -3,4 +3,8 @@
 	background-color: #F5F4FC;
 	background-position: 0 0, 0 0;
 	background-size: 15px 15px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }

@@ -19,7 +19,8 @@ export default function Works() {
                 <div
                   data-aos="fade-right"
                   className="flex justify-center py-10"
-                  key={project.num}
+                  key={project.id}
+                  
                 >
                   <img
                     src={project.imageUrl}

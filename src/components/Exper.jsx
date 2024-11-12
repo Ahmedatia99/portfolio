@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <main className="flex justify-center items-center lg:gap-52 gap-0 h-screen w-full bg-primary lg:py-10 md:py-10 sm:py-5 mobile:py-5 flex-wrap">
+    <main className="flex justify-center items-center w-full bg-primary lg:py-10 md:py-10 sm:py-5 mobile:py-5 flex-wrap">
       <article className="px-10">
         <div>
           <h1

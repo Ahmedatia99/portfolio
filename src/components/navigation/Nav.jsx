@@ -7,7 +7,7 @@ export default function Nav() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <main className="  text-white lg:px-20 md:px-10 sm:px-2 mobile:px-2 w-full lg:py-10 md:py-10 sm:py-5 mobile:py-5 bg-transparent">
+    <main className=" container mx-auto text-white sm:px-2 w-full lg:py-10 md:py-10 sm:py-5 mobile:py-5 bg-transparent">
       <div className=" ">
         <div className="relative">
           {/* Logo  */}
@@ -16,7 +16,7 @@ export default function Nav() {
               <img
                 src={"./images/Logo.png"}
                 alt="A3"
-                className=" lg:h-24 md:h-24 sm:h-16 mobile:h-16 lg:mt-5 md:mt-5 sm:mt-0 mobile:mt-0 lg:pl-16 md:pl-0"
+                className=" lg:h-24 md:h-24 sm:h-16 mobile:h-16 lg:mt-5 md:mt-5 sm:mt-0 mobile:mt-0"
               />
             </a>
             <div className="md:block relative z-50">
