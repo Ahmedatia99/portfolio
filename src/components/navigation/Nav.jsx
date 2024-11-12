@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
+import { FaGithub } from "react-icons/fa";
 
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
@@ -92,7 +93,7 @@ export default function Nav() {
                   Connect a wallet
                 </a>
               </li>
-              <div className="flex justify-center bg-primary p-5 rounded-md ">
+              <div className="flex justify-center items-center bg-primary p-5 rounded-md ">
                 <a
                   className=" text-white mr-5"
                   href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
@@ -101,11 +102,11 @@ export default function Nav() {
                   <img className=" w-5 h-5 my-2" src="./images/linkedin.svg" />
                 </a>{" "}
                 <a
-                  href="https://twitter.com/ahmedatiaa99"
+                  href="https://github.com/Ahmedatia99"
                   className="mr-6 text-caption "
                   target="blank"
                 >
-                  <img className=" " src="./images/TwitterLogo.svg" />
+                  <FaGithub className="text-white" size={30} />
                 </a>
                 <a
                   href="https://www.instagram.com/ahmedatiaa99/"
