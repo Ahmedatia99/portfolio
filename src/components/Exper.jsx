@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <main className="flex justify-center items-center w-full bg-primary lg:py-10 md:py-10 sm:py-5 mobile:py-5 flex-wrap">
+    <main className="h-screen flex justify-center items-center w-full bg-primary lg:py-10 md:py-10 sm:py-5 mobile:py-5 flex-wrap">
       <article className="px-10">
         <div>
           <h1
@@ -11,37 +11,35 @@ export default function Experience() {
           >
             Over the years,
           </h1>
-          <div className="lg:text-sm text-xs text-white lg:max-w-sm md:max-w-xs flex flex-col items-center font-mono">
+          <div className=" lg:text-base max-sm:text-xs text-sm text-white lg:max-w-sm md:max-w-xs flex flex-col items-center font-mono">
             <p className="py-5" data-aos="fade-down">
-              I've built products for companies and businesses around the globe
-              ranging from marketing websites to complex solutions and
-              enterprise apps with focus on fast, elegant and accessible user
-              experiences.
+              I've dedicated myself to crafting modern and responsive web
+              interfaces that prioritize user satisfaction. My experience spans
+              a variety of projects, including building sleek, accessible
+              marketing websites and functional web applications designed to
+              meet business needs.
             </p>
             <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
-              Currently, I work at Shopify as a Senior Frontend Engineer
-              crafting thoughtful and inclusive experiences that adhere to web
-              standards for over 3 million merchants across the world
+              As a passionate frontend developer, I strive to deliver clean,
+              maintainable code and intuitive user experiences. With expertise
+              in technologies like HTML, CSS, JavaScript, and React, I enjoy
+              bringing ideas to life with a focus on detail and performance
             </p>
             <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
-              . Before now, I was Principal Frontend Engineer at hellotax, where
-              I worked on a suite of tools and services tailored towards
-              automated VAT compliance for multi-channel sellers in Europe.
+              I hold a Bachelor's degree in Computer Science, which laid the
+              foundation for my journey into web development. I’m constantly
+              learning and growing, staying updated with the latest tools and
+              trends to ensure my work meets modern standards.
             </p>
             <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
-              Prior to hellotax, I was Senior frontend engineering consultant
-              with Pixel2HTML, building JavaScript applications and interfaces
-              for orgs and individuals
-            </p>
-            <p className="pb-5 sm:pb-3 mobile:pb-3" data-aos="fade-down">
-              . I once also led the frontend team at Conectar, an e-learning
-              startup through building multiple React applications into a single
-              robust learning platform.
+              Through collaboration with clients and teams, I’ve developed a
+              deep appreciation for how design and code can work together to
+              create impactful digital solutions.
             </p>
           </div>
         </div>
       </article>
-      <div className="max-w-xl" data-aos="zoom-out">
+      <div className="max-w-xl lg:min-w-2xl aspect-auto" data-aos="zoom-out">
         <img src="./images/experience.svg" />
       </div>
     </main>

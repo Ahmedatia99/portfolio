@@ -5,38 +5,60 @@ import "./works.css";
 import "../projects/projects.css";
 export default function Works() {
   return (
-    <main className="relative dots w-screen tablet:p-32 mobile:p-5">
-      <div className="tablet:pb-10 mobile:mb-5" data-aos="fade-down">
-        <h1 className=" text-primary tablet:text-6xl mobile:text-4xl font-bold font-mono text-center tablet:mb-5 mobile:mb-0">
-          Projects
-        </h1>
-      </div>
+    <main className=" relative grid min-h-screen w-full place-content-center overflow-hidden ">
+      <h2 className="relative z-0 text-[20vw] font-black text-primary md:text-[200px] mb-36">
+        Projects<span className="text-morning">.</span>
+      </h2>
       <section>
-        <div className="grid desktop:grid-cols-2 tablet:grid-cols-2 mobile:grid-cols-1 cursor-pointer gap-5">
-          {data.map((project) => {
+        <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1 cursor-pointer gap-5">
+          {data.map((item) => {
             return (
-              <main className="up max-w-full flex justify-end bg-white  flex-col rounded-2xl transition-all shadow-xl">
-                <div
-                  className="flex justify-center items-center py-10"
-                  key={project.id}
-                >
+              <div key={item.id} className="max-w-sm bg- border  rounded-lg ">
+                <Link to={item.link}>
                   <img
-                    src={project.imageUrl}
-                    className="w-[350px] md:w-[200px] lg:w-[300px]  rounded-xl border-2 border-gray-100`"
+                    className="rounded-t-lg w-[400px] h-[200px] aspect-auto"
+                    src={item.imageUrl}
+                    alt={item.name}
                   />
+                </Link>
+                <div className="p-5 ">
+                  <h5 className="font-mono mb-2 text-2xl font-bold tracking-tight uppercase text-primary ">
+                    {item.name}
+                    <span className="text-morning text-6xl m-0 leading-[0]">
+                      .
+                    </span>
+                  </h5>
+                  <p className="mb-3 font-medium h-[60px] text-gray-500">
+                    {item.description}
+                  </p>
+                  <Link
+                    to={item.link}
+                    className=" link relative  transition-all flex items-center px text-primary border-solid border-primary border-[1px] rounded-xl px-5 py-2 w-fit"
+                  >
+                    <span className="z-30">DEMO</span>
+                    <svg
+                      className="rtl:rotate-180 w-3.5 h-3.5 ms-2 z-30"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </Link>
                 </div>
-                <div className="hov py-8 bg-work w-full rounded-2xl text-center text-primary font-mono text-2xl  transition-all">
-                  <a href={project.link} target="blank">
-                    {" "}
-                    {project.name}
-                  </a>
-                </div>
-              </main>
+              </div>
             );
           })}
         </div>
       </section>
-      <section className="flex justify-center items-center transition-all mt-10 py-10">
+      <section className="flex justify-center items-center mt-10 py-10">
         <Link
           to={"/"}
           className="link relative transition-all flex items-center justify-center tablet:px-20 mobile:px-5 py-3 border-solid border-primary border-[1px] rounded-xl tablet:mr-10 mobile:mr-2"

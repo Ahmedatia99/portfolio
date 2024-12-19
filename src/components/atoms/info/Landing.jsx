@@ -1,12 +1,12 @@
-import React from "react";
 import "./land.css";
 import Nav from "../../navigation/Nav";
-export default function Info() {
+
+function Info() {
   return (
     <section className="gap-10 container flex lg:flex-row md:flex-row sm:flex-col mobile:flex-col justify-between items-center lg:my-10 md:my-10 sm:my-10 mobile:my-10 lg:mx-0 md:mx-5 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4">
       {/* info section */}
       <article
-        className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-cente lg:px-0 md:px-0 sm:px-10 mobile:px-10"
+        className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-center lg:px-0 md:px-0 sm:px-10 mobile:px-10"
         data-aos="fade-down"
         data-aos-easing="linear"
       >
@@ -77,7 +77,11 @@ export default function Info() {
         <div className=" bg-transparent lg:w-80 md:w-60 lg:h-80 md:h-60  absolute top-7 right-12  border-2 border-white border-solid "></div>
         <div className="lg:max-w-xs md:max-w-[250px] relative z-20 mr-20 object-fill">
           {" "}
-          <img src="./images/perfecto.jpg" alt="ahmed atia" className="" />
+          <img
+            src="./images/ahmedatia.jpg"
+            alt="ahmed atia"
+            className="aspect-auto"
+          />
         </div>
       </div>
 
@@ -124,11 +128,16 @@ export default function Info() {
             ></path>
           </svg>
         </div>
-        <div className=" bg-transparent w-52 h-52 absolute top-1 -right-5  border  border-white border-solid "></div>
+        <div className=" bg-transparent w-52 h-52 absolute top-20 -right-5  border  border-white border-solid "></div>
         <div className=" w-[200px] relative z-20">
-          <img src="./images/perfecto.jpg" alt="ahmed atia" />
+          <img
+            src="./images/ahmedatia.jpg"
+            alt="ahmed atia"
+            className="aspect-auto"
+          />
         </div>
       </div>
     </section>
   );
 }
+export default Info;
