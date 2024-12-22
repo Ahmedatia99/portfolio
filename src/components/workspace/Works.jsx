@@ -5,7 +5,7 @@ import "./works.css";
 import "../projects/projects.css";
 export default function Works() {
   return (
-    <main className=" relative grid min-h-screen w-full place-content-center overflow-hidden ">
+    <main id="projects"className=" relative grid min-h-screen w-full place-content-center overflow-hidden ">
       <h2 className="relative z-0 text-[20vw] font-black text-primary md:text-[200px] mb-36">
         Projects<span className="text-morning">.</span>
       </h2>
@@ -33,9 +33,9 @@ export default function Works() {
                   </p>
                   <Link
                     to={item.link}
-                    className=" link relative  transition-all flex items-center px text-primary border-solid border-primary border-[1px] rounded-xl px-5 py-2 w-fit"
+                    className=" link relative  transition-all flex items-center px text-primary border-solid border-primary border rounded-xl px-5 py-2 w-fit"
                   >
-                    <span className="z-30">DEMO</span>
+                    <span className="z-30 !text-md font-semibold tracking-wider">DEMO</span>
                     <svg
                       className="rtl:rotate-180 w-3.5 h-3.5 ms-2 z-30"
                       aria-hidden="true"

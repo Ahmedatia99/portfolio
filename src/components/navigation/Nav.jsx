@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+
 
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
@@ -61,12 +63,12 @@ export default function Nav() {
             className={`opacity-100 flex justify-center items-center flex-col bg-white absolute top-0 right-0 z-40 text-primary mt-7 w-80 md:block rounded-lg
             ${
               navbar
-                ? " lg:block md:block sm:block mobile:block display"
-                : "lg:hidden md:hidden sm:hidden mobile:hidden "
+                ? "!block display"
+                : "go-out"
             } 
             `}
           >
-            <ul className="pt-20 text-xl font-mono w-full">
+            <ul className="pt-20 text-2xl font-mono w-full font-medium rounded-b-xl">
               <li className=" transition-all hover:translate-x-2 py-6 px-10 opacity-100">
                 <Link to={"/projects"}>My Work</Link>
               </li>
@@ -93,24 +95,25 @@ export default function Nav() {
                   Connect a wallet
                 </a>
               </li>
-              <div className="flex justify-center items-center bg-primary p-5 rounded-md ">
+              <div className="flex justify-center items-center gap-8 bg-primary p-5 rounded-b-md">
                 <a
-                  className=" text-white mr-5"
+                  className=" text-white"
                   href="https://www.linkedin.com/in/ahmed-atia-b60458206/"
                   target="blank"
                 >
-                  <img className=" w-5 h-5 my-2" src="./images/linkedin.svg" />
+                  <FaLinkedin className="text-3xl"/>
+                  {/* <img className=" " src="./images/linkedin.svg" /> */}
                 </a>{" "}
                 <a
                   href="https://github.com/Ahmedatia99"
-                  className="mr-6 text-caption "
+                  className="text-caption "
                   target="blank"
                 >
                   <FaGithub className="text-white" size={30} />
                 </a>
                 <a
-                  href="https://www.instagram.com/ahmedatiaa99/"
-                  className="mr-6 text-caption"
+                  href="https://www.instagram.com/itsahmedatia/"
+                  className="text-caption"
                   target="blank"
                 >
                   <img className="" src="./images/InstagramLogo.svg" />

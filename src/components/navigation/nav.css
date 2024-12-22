@@ -1,13 +1,25 @@
 @keyframes show {
   from {
     transform: translateX(400px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes return {
+  to {
+    transform: translateX(400px);
+    opacity: 0;
+    visibility: hidden;
   }
 }
 @media (prefers-reduced-motion: no-preference) {
   .display {
     animation: show 0.4s ease-in-out 0s alternate;
+  }
+  .go-out {
+    animation: return 0.4s ease-in-out 0s forwards;
   }
 }
