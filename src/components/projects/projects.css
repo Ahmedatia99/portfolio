@@ -1,26 +1,42 @@
 .link:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
   height: 100%;
-  background: theme('colors.primary');
+  background: theme("colors.primary");
   transition: all 0.35s;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .link:hover,
 .link:hover > span {
   color: #fff;
-
 }
-.link:hover > svg
- {
-  stroke: #fff;
+.link:hover svg {
+  transform: translateX(2px);
 }
 
 .link:hover:after {
   width: 100%;
-
+}
+.swiper-pagination {
+  position: relative !important;
+  padding: 20px 0 5px;
+}
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  padding-top: 3px;
+  opacity: 1 !important;
+  background: white !important;
+  border: 1px solid theme("colors.primary") !important;
+  color: theme("colors.fonts");
+  font-weight: 600;
+  text-align: center;
+}
+.swiper-pagination-bullet-active {
+  background-color: theme("colors.primary") !important;
+  color: white;
 }

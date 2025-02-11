@@ -1,65 +1,122 @@
 import React from "react";
 import "./projects.css";
-import "./animate.scss";
+import projects from "../workspace/data.json";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper/modules";
+import { MdKeyboardArrowRight } from "react-icons/md";
+import { FaArrowRightLong } from "react-icons/fa6";
+
 export default function Projects() {
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return `<span class="${className}">  </span>`;
+    },
+  };
+
+  const breakPoints = {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    375: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    420: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    767: {
+      slidesPerView: 2,
+      spaceBetween: 70,
+    },
+    1025: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    12769: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  };
+
   return (
-    <main className="h-screen w-full relative flex justify-center items-center bg-supcolor py-32">
-      <div className="animation-container lg:block md:block mobile:hidden sm:hidden">
-        <div className="lightning-container">
-          <div className="lightning white"></div>
-          <div className="lightning red"></div>
-        </div>
-        <div className="boom-container">
-          <div className="shape circle big white"></div>
-          <div className="shape circle white"></div>
-          <div className="shape triangle big yellow"></div>
-          <div className="shape disc white"></div>
-          <div className="shape triangle blue"></div>
-        </div>
-        <div className="boom-container second">
-          <div className="shape circle big white"></div>
-          <div className="shape circle white"></div>
-          <div className="shape disc white"></div>
-          <div className="shape triangle blue"></div>
-        </div>
-      </div>
-      <div className="lg:p-28 p-10 bg-white absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 border-4 border-primary">
-        <h1
-          className="text-primary lg:text-5xl md:text-4xl sm:text-3xl mobile:text-3xl font-extrabold max-w-xs sm:w-full mobile:w-full"
-          data-aos="fade-down"
+    <main className="relative h-screen flex  flex-col justify-center items-center bg-supcolor z-50">
+      <div className="relative container mx-auto flex justify-center items-center gap-5 flex-wrap ">
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 20,
+            stretch: 1,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+          }}
+          pagination={pagination}
+          modules={[EffectCoverflow, Pagination]}
+          className="mySwiper"
+          className="mySwiper"
+          breakpoints={breakPoints}
         >
-          I build & design stuff
-        </h1>
-        <p
-          className="text-fonts lg:text-2xl md:text-lg sm:text-base mobile:text-base py-5 max-w-xs sm:w-full mobile:w-full"
-          data-aos="fade-down"
-        >
-          Open source projects, web apps and experimentals.
-        </p>{" "}
-        <div>
-          <Link
-            to={"/projects"}
-            className="link relative transition-all flex items-center justify-between mx-auto  mt-10 px-16  lg:py-3 md:py-3 sm:py-1 mobile:py-1 border-solid border-primary border-[1px] text-primary font-bold rounded-xl"
-          >
-            <span className="mr-3 relative z-20 tablet:text-lg mobile:text-base">
-              see my work
-            </span>
-            <svg
-              viewBox="0 0 72 22"
-              xmlns="http://www.w3.org/2000/svg"
-              className="stroke-primary relative z-30 h-5 w-14 "
-            >
-              <path
-                fill="none"
-                strokeWidth="2"
-                strokeMiterlimit="0"
-                d="M.043 11.119h70.714M60.917 1.319l9.8 9.8-9.8 9.8"
-              ></path>
-            </svg>
-          </Link>
-        </div>
+          {projects.slice(0, 4).map((item) => {
+            return (
+              <SwiperSlide
+                key={item.id}
+                className=" max-w-sm bg- border-2 border-primary rounded-lg shadow-xl"
+              >
+                <img
+                  className=" rounded-md w-full h-[auto] aspect-auto object-fill "
+                  src={item.imageUrl}
+                  alt={item.name}
+                />
+
+                <div className="p-5  bg-white rounded-b-lg text-white">
+                  <h5 className="font-mono mb-2 text-2xl font-bold tracking-tight uppercase text-primary ">
+                    {item.name}
+                    <span className="text-morning text-6xl m-0 leading-[0]">
+                      .
+                    </span>
+                  </h5>
+                  <p className="mb-3 font-medium h-[60px] text-gray-500">
+                    {item.description}
+                  </p>
+                  <Link
+                    to={item.link}
+                    className=" link relative transition-all flex items-center px text-primary border-solid border-primary border-2 rounded-lg px-5 py-1 w-fit"
+                  >
+                    <span className="z-30 !text-md font-semibold tracking-wider">
+                      DEMO
+                    </span>
+
+                    <FaArrowRightLong className="ml-2 relative z-30" />
+                  </Link>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </div>
+      <Link
+        data-aos="fade-down"
+        to={"/projects"}
+        className="link relative transition-all flex items-center px text-fonts border-solid border-primary border-2 rounded-lg px-5 py-2 w-fit justify-center"
+      >
+        <span className="relative z-30 mr-1">Show all projects</span>
+        <MdKeyboardArrowRight className="cursor-pointer relative z-30 transition-all" />
+      </Link>
+      <img
+        src="./images/icon-dotted-map-2.png"
+        alt="wallpaper"
+        className="absolute right-0 top-0"
+      />
     </main>
   );
 }
