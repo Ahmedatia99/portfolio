@@ -2,7 +2,6 @@ import React from "react";
 import data from "./data.json";
 import { Link } from "react-router-dom";
 import "./works.css";
-import "../projects/projects.css";
 export default function Works() {
   return (
     <main id="projects"className=" relative grid min-h-screen w-full place-content-center overflow-hidden ">
