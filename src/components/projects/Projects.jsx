@@ -1,5 +1,4 @@
 import React from "react";
-import "./projects.css";
 import projects from "../workspace/data.json";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -36,11 +35,11 @@ export default function Projects() {
       spaceBetween: 70,
     },
     1025: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 30,
     },
     12769: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 30,
     },
   };
@@ -57,12 +56,11 @@ export default function Projects() {
             rotate: 20,
             stretch: 1,
             depth: 100,
-            modifier: 2,
+            modifier: 1,
             slideShadows: true,
           }}
           pagination={pagination}
           modules={[EffectCoverflow, Pagination]}
-          className="mySwiper"
           className="mySwiper"
           breakpoints={breakPoints}
         >
@@ -73,15 +71,15 @@ export default function Projects() {
                 className=" max-w-sm bg- border-2 border-primary rounded-lg shadow-xl"
               >
                 <img
-                  className=" rounded-md w-full h-[auto] aspect-auto object-fill "
+                  className=" rounded-md w-full h-[auto] aspect-auto object-fill"
                   src={item.imageUrl}
                   alt={item.name}
                 />
 
-                <div className="p-5  bg-white rounded-b-lg text-white">
-                  <h5 className="font-mono mb-2 text-2xl font-bold tracking-tight uppercase text-primary ">
+                <div className="p-5 bg-white rounded-b-lg text-white">
+                  <h5 className="font-kanit mb-2 text-2xl font-bold tracking-tight uppercase text-primary">
                     {item.name}
-                    <span className="text-morning text-6xl m-0 leading-[0]">
+                    <span className="text-morning text-6xl ml-1 leading-[0]">
                       .
                     </span>
                   </h5>
@@ -90,9 +88,9 @@ export default function Projects() {
                   </p>
                   <Link
                     to={item.link}
-                    className=" link relative transition-all flex items-center px text-primary border-solid border-primary border-2 rounded-lg px-5 py-1 w-fit"
+                    className="link relative transition-all flex items-center px text-primary border-solid border-primary border-2 rounded-lg px-5 py-1 w-fit"
                   >
-                    <span className="z-30 !text-md font-semibold tracking-wider">
+                    <span className="z-30 !text-md tracking-wider font-semibold font-kanit">
                       DEMO
                     </span>
 
@@ -107,9 +105,9 @@ export default function Projects() {
       <Link
         data-aos="fade-down"
         to={"/projects"}
-        className="link relative transition-all flex items-center px text-fonts border-solid border-primary border-2 rounded-lg px-5 py-2 w-fit justify-center"
+        className="link relative transition-all flex items-center px text-fonts border-solid border-primary border-2 rounded-lg px-10 py-3 w-fit justify-center"
       >
-        <span className="relative z-30 mr-1">Show all projects</span>
+        <span className="relative z-30 mr-1 font-kanit">Show all projects</span>
         <MdKeyboardArrowRight className="cursor-pointer relative z-30 transition-all" />
       </Link>
       <img

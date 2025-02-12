@@ -7,13 +7,13 @@ import Nav from "../components/navigation/Nav";
 
 export const Home = () => (
   <>
-    <div className=" order-1 over flex flex-col items-center justify-center w-full h-screen font-helvetica relative">
+    <div className=" order-1 over flex flex-col items-center justify-center w-full h-screen font-mono relative">
       <Nav />
       <Landing />
     </div>
     <Script />
     <Exper />
     <Projects />
-    {/* <Footer /> */}
+    <Footer />
   </>
 );

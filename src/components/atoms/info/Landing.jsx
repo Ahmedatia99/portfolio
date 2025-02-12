@@ -1,15 +1,14 @@
-import "./land.css";
 import Nav from "../../navigation/Nav";
 function Info() {
   return (
-    <section className="gap-10 container mx-auto flex lg:flex-row md:flex-row sm:flex-col mobile:flex-col justify-between items-center lg:my-10 md:my-10 sm:my-10 mobile:my-10 lg:mx-0 md:mx-5 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 overflow-hidden">
+    <section className="container mx-auto flex lg:flex-row md:flex-row max-sm:flex-col justify-around gap-10 items-center lg:my-10 md:my-10 max-sm:my-10 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 overflow-hidden">
       <article
-        className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-center lg:px-0 md:px-0 sm:px-10 mobile:px-10"
+        className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-center lg:px-0 md:px-2 max-sm:px-10 "
         data-aos="fade-down"
         data-aos-easing="linear"
       >
-        <div className="flex flex-col justify-between items-start ">
-          <h1 className="text-morning lg:text-7xl md:text-5xl sm:text-4xl mobile:text-4xl font-extrabold leading-tight">
+        <div className="flex flex-col justify-between items-start">
+          <h1 className="text-morning lg:text-7xl md:text-5xl max-sm:text-4xl font-kanit font-bold leading-tight">
             Frontend Developer
             <span className="text-white font-mono ">.</span>
           </h1>
@@ -18,12 +17,12 @@ function Info() {
             experiences.
           </p>
         </div>
-        <div className="mobile:hidden md:flex justify-between items-center lg:gap-10 md:gap-10 sm:gap-3 mobile:gap-3 lg:text-sm md:text-sm sm:text-xs mobile:text-xs text-morning lg:mt-20 md:mt-20 sm:mt-0 mobile:mt-0 w-full ">
-          <p className="lg:max-w-sm md:max-w-sm sm:w-full mobile:w-full">
+        <div className="max-sm:hidden md:flex justify-between items-center lg:gap-10 md:gap-10 max-sm:gap-3  lg:text-sm md:text-sm max-sm:text-xs  text-morning lg:mt-20 md:mt-20 max-sm:mt-0 w-full ">
+          <p className="lg:max-w-xs md:max-w-xs max-sm:w-full  text-xs">
             Highly skilled at progressive enhancement, design systems & UI
             Engineering.
           </p>
-          <p className="lg:max-w-sm md:max-w-sm sm:w-full mobile:w-full">
+          <p className="lg:max-w-sm md:max-w-sm max-sm:w-full text-xs">
             Proven experience building successful products for clients across
             several countries.
           </p>
@@ -72,7 +71,7 @@ function Info() {
           </svg>
         </div>
         <div className="absolute lg:top-16 right-0 md:right-9 max-sm:right-7 md:top-5 max-sm:top-8 border-2 border-white border-solid lg:w-72 md:w-60 max-sm:w-56 lg:h-96 md:h-80 max-sm:h-60"></div>
-        <div className="lg:w-80 md:w-60 max-sm:w-48 relative z-20 mr-20 max-sm:mr-0 object-fill">
+        <div className=" w-72 lg:w-80 max-md:w-60 max-sm:w-48 relative z-20 mr-20 max-sm:mr-0 object-fill">
           <img
             src="./images/ahmedatia.jpg"
             alt="ahmed atia"

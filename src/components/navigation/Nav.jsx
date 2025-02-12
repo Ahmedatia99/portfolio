@@ -28,16 +28,16 @@ export default function Nav() {
   const phoneNumber = "+201117910989";
 
   return (
-    <main className="container mx-auto text-white sm:px-2 w-full lg:py-10 md:py-10 sm:py-5 bg-transparent">
-      <div className="relative">
+    <main className="container mx-auto text-white sm:px-2 w-full lg:py-10 md:py-10 max-sm:py-5 bg-transparent">
+      <div className="relative ">
         {/* Logo & Menu Button */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between lg:px-20 md:px-0 items-center">
           <a href="./Home" className="flex">
             <img
               loading="lazy"
               src="/images/Logo.png"
               alt="Logo"
-              className="lg:h-24 md:h-24 sm:h-16 mobile:h-16 lg:mt-5 md:mt-5 sm:mt-0"
+              className="lg:h-24 md:h-24 sm:h-16 mobile:h-16"
             />
           </a>
           <div className=" relative z-50">

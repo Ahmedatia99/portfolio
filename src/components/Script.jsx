@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 
 export default function Script() {
   return (
-    <main className=" flex flex-col justify-center items-center h-screen lg:px-20 md:px-20 sm:px-10 mobile:px-10  font-mono">
+    <main className=" flex flex-col justify-center items-center h-screen   max-sm:px-10   font-mono">
       {/* Design section */}
       <div className="flex justify-center lg:gap-60 md:gap-20 sm:gap-5 mobile:gap-5 items-center  md:mx-10 mt-10">
         <article>
           <h1
-            className="text-primary lg:text-6xl md:text-5xl sm:text-3xl mobile:text-3xl font-extrabold mb-5 font-helvetica"
+            className="text-primary lg:text-6xl md:text-4xl max-sm:text-3xl  font-bold mb-5 max-sm:mb-2 font-kanit"
             data-aos="fade-right"
           >
             Design
           </h1>
           <p
-            className="text-fonts md:text-base sm:text-sm mobile:text-sm lg:max-w-lg md:max-w-sm"
+            className="text-fonts md:text-xs max-sm:text-sm  lg:max-w-lg md:max-w-sm"
             data-aos="fade-up"
           >
             I'm probably not the typical designer positioned behind an
@@ -23,7 +23,7 @@ export default function Script() {
             experiences while staying fashionable
           </p>
         </article>
-        <div className="lg:block md:block sm:hidden mobile:hidden">
+        <div className="lg:block md:block max-sm:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-72 h-72 lg:mr-20 sm:mr-0 "
@@ -48,7 +48,7 @@ export default function Script() {
       </div>
       {/* Engineering Section */}
       <div className="flex justify-center lg:gap-60 md:gap-20  items-center  md:mx-10 mt-10">
-        <div className="lg:block md:block sm:hidden mobile:hidden ">
+        <div className="lg:block md:block max-sm:hidden ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="200"
@@ -70,13 +70,13 @@ export default function Script() {
         </div>
         <article>
           <h1
-            className="text-primary lg:text-6xl md:text-5xl sm:text-3xl mobile:text-3xl font-extrabold mb-5 font-helvetica"
+            className="text-primary lg:text-6xl md:text-4xl max-sm:text-3xl font-bold mb-5 max-sm:mb-2 font-kanit"
             data-aos="fade-right"
           >
             Engineering
           </h1>
           <p
-            className="text-fonts md:text-base sm:text-sm mobile:text-sm lg:max-w-lg md:max-w-sm"
+            className="text-fonts md:text-xs max-sm:text-sm lg:max-w-lg md:max-w-sm"
             data-aos="fade-up"
           >
             In building JavaScript applications, I'm equipped with just the
@@ -87,5 +87,5 @@ export default function Script() {
         </article>
       </div>
     </main>
-  )
+  );
 }
