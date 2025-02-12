@@ -1,0 +1,9 @@
+[1]make section to feature project 
+[2]specific project by filtering
+[3]add framer motion --
+[4] upgrade performance and add alt to images and lazy loading 
+[5]add footer
+[6]edit skills page to modern section by adding some animated icons
+[7]make mobile responsive more attractive
+[8] try adding cv and videos links and more details to each project && repo (github)
+[9]edit abstracts to be more attractive

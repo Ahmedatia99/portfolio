@@ -12,8 +12,8 @@ export default {
         work: "#f5f4fc"
       },
       fontFamily: {
-        helvetica: ["helvetica"],
-        sfu: ["SF UI Text"]
+        mono: ["Space Mono"],
+        kanit: ["Kanit"]
       },
       backgroundImage: {
         "footer-bg": "url('/images/contact.svg')"
