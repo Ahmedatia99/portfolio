@@ -1,6 +1,5 @@
 import React from "react";
 import "./skill.scss";
-// import "../../workspace/works.css";
 import "../info/Landing";
 
 export default function Feature(props) {
