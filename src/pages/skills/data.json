@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "icon": "FaJs",
+        "percent": "70"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "icon": "FaReact",
+        "percent": "85"
+    },
+    {
+        "id": 3,
+        "name": "Next",
+        "icon": "SiNextdotjs",
+        "percent": "80"
+    },
+    {
+        "id": 4,
+        "name": "TypeScript",
+        "icon": "SiTypescript",
+        "percent": "75"
+    },
+    {
+        "id": 5,
+        "name": "Framer Motion",
+        "icon": "TbBrandFramerMotion",
+        "percent": "90"
+    },
+    {
+        "id": 6,
+        "name": "Git",
+        "icon": "FaGitAlt",
+        "percent": "95"
+    },
+    {
+        "id": 7,
+        "name": "Sass",
+        "icon": "FaSass",
+        "percent": "99"
+    },
+    {
+        "id": 8,
+        "name": "Tailwind",
+        "icon": "RiTailwindCssFill",
+        "percent": "99"
+    }
+]
