@@ -4,8 +4,8 @@ function Info() {
     <section className="container mx-auto flex lg:flex-row md:flex-row max-sm:flex-col justify-around gap-10 items-center lg:my-10 md:my-10 max-sm:my-10 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 overflow-hidden">
       <article
         className="lg:max-w-md md:max-w-sm flex flex-col justify-between items-center lg:px-0 md:px-2 max-sm:px-10 "
-        data-aos="fade-down"
-        data-aos-easing="linear"
+        data-aos="fade-up"
+        data-aos-duration="3000"
       >
         <div className="flex flex-col justify-between items-start">
           <h1 className="text-morning lg:text-7xl md:text-5xl max-sm:text-4xl font-kanit font-bold leading-tight">
@@ -71,7 +71,10 @@ function Info() {
           </svg>
         </div>
         <div className="absolute lg:top-16 right-0 md:right-9 max-sm:right-7 md:top-5 max-sm:top-8 border-2 border-white border-solid lg:w-72 md:w-60 max-sm:w-56 lg:h-96 md:h-80 max-sm:h-60"></div>
-        <div className=" w-72 lg:w-80 max-md:w-60 max-sm:w-48 relative z-20 mr-20 max-sm:mr-0 object-fill">
+        <div 
+         data-aos="fade-up"
+        data-aos-duration="3000"
+        className=" w-72 lg:w-80 max-md:w-60 max-sm:w-48 relative z-20 mr-20 max-sm:mr-0 object-fill">
           <img
             src="./images/ahmedatia.jpg"
             alt="ahmed atia"

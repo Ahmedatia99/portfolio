@@ -13,7 +13,7 @@ export default function Script() {
             Design
           </h1>
           <p
-            className="text-fonts md:text-xs max-sm:text-sm  lg:max-w-lg md:max-w-sm"
+            className="text-fonts lg:text-base md:text-xs max-sm:text-sm  lg:max-w-lg md:max-w-sm"
             data-aos="fade-up"
           >
             I'm probably not the typical designer positioned behind an
@@ -76,7 +76,7 @@ export default function Script() {
             Engineering
           </h1>
           <p
-            className="text-fonts md:text-xs max-sm:text-sm lg:max-w-lg md:max-w-sm"
+            className="text-fonts lg:text-base md:text-xs max-sm:text-sm lg:max-w-lg md:max-w-sm"
             data-aos="fade-up"
           >
             In building JavaScript applications, I'm equipped with just the

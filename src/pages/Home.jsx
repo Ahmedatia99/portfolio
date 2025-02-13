@@ -4,6 +4,7 @@ import Projects from "../components/projects/Projects";
 import Exper from "../components/Exper";
 import Footer from "../components/footer/Footer";
 import Nav from "../components/navigation/Nav";
+import Skills from './skills/Skills';
 
 export const Home = () => (
   <>
@@ -14,6 +15,7 @@ export const Home = () => (
     <Script />
     <Exper />
     <Projects />
+    <Skills />
     <Footer />
   </>
 );

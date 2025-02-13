@@ -92,7 +92,7 @@ main {
 
 .knowMe {
   position: relative;
-  background-image: url(./assets/images/icon-dotted-map-2.png);
+  background-image: url(../../images/icon-dotted-map-2.png);
 }
 .knowMe::before {
   content: "";

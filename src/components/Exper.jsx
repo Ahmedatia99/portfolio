@@ -22,7 +22,7 @@ export default function Experience() {
           <div className="flex flex-col justify-between items-start gap-5">
             <div data-aos="fade-up" data-aos-duration="3000">
               <h1 className="text-4xl font-kanit font-semibold text-fonts mb-2 uppercase max-sm:text-2xl">
-                Know me
+                About me
               </h1>
               <p className="max-w-lg max-sm:text-xs">
                 I hold a Bachelor's degree in Computer Science, which laid the
