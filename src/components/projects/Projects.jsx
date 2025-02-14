@@ -46,7 +46,7 @@ export default function Projects() {
 
   return (
     <main className="relative h-screen flex  flex-col justify-center items-center bg-supcolor z-50">
-      <div className="relative container mx-auto flex justify-center items-center gap-5 flex-wrap ">
+      <div className="relative container mx-auto flex justify-center items-center gap-5 flex-wrap">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
@@ -71,7 +71,7 @@ export default function Projects() {
                 className=" max-w-sm bg- border-2 border-primary rounded-lg shadow-xl"
               >
                 <img
-                  className=" rounded-md w-full h-[auto] aspect-auto object-fill"
+                  className="rounded-md w-full h-[auto] aspect-auto object-fill"
                   src={item.imageUrl}
                   alt={item.name}
                 />
@@ -103,7 +103,6 @@ export default function Projects() {
         </Swiper>
       </div>
       <Link
-        data-aos="fade-down"
         to={"/projects"}
         className="link relative transition-all flex items-center px text-fonts border-solid border-primary border-2 rounded-lg px-10 py-3 w-fit justify-center"
       >

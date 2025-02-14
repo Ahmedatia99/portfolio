@@ -37,6 +37,9 @@ main {
 .over-mob {
   background: linear-gradient(180deg, theme("colors.primary") 60%, theme("colors.morning") 33%);
 }
+.footer {
+  background: linear-gradient(180deg, theme("colors.primary") 45%, theme("colors.supcolor") 30%);
+}
 @media (max-width: 320px) {
   .over {
     background: linear-gradient(180deg, theme("colors.primary") 60%, theme("colors.morning") 33%);

@@ -16,7 +16,7 @@ export default function Skills() {
           <section
             className="p-6 max-sm:p-3 rounded-lg shadow-lg shadow-gray-300 bg-white w-full"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             <div className="py-4 grid grid-cols-2 max-sm:grid-cols-1 gap-x-5 gap-y-3">
               {data.map((item) => (

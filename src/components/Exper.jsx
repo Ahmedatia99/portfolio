@@ -17,6 +17,7 @@ export default function Experience() {
             data-aos-duration="3000"
             src="/images/atia-anime.jpg"
             alt="atia-anime"
+            loading="lazy"
             className="w-60 h-auto aspect-auto rounded-lg shadow-xl"
           />
           <div className="flex flex-col justify-between items-start gap-5">
@@ -33,7 +34,7 @@ export default function Experience() {
             </div>
 
             <Link
-              to="https://drive.google.com/file/d/1W3iZK2jT5u_ZaHPTxy70d-Er1MvpbtI1/view?usp=drive_link"
+              to="https://drive.google.com/file/d/1qeKuDN643qQMFGgHWVjozcUjs3oaKsqc/view?usp=drive_link"
               data-aos="fade-up"
               data-aos-duration="3000"
               target="_blank"

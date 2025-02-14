@@ -80,10 +80,7 @@ export default function Nav() {
               >
                 <ul className="pt-20 max-sm:pt-5 relative max-sm:top-[20%] text-2xl font-mono font-medium text-primary">
                   <li className="transition-all hover:translate-x-2 py-6 px-10">
-                    <Link to="/projects">My Work</Link>
-                  </li>
-                  <li className="transition-all hover:translate-x-2 py-6 px-10">
-                    <Link to="/skill">Skills</Link>
+                    <Link to="/projects">Projects</Link>
                   </li>
                   <hr className="mx-5" />
                   <li className="py-6 px-10 text-gray-400">
