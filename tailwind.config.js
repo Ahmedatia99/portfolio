@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -8,28 +8,26 @@ export default {
         morning: "#ccf381",
         fonts: "#3d155f",
         supcolor: "#F9F9F9",
-        footer: "#3d155f",
-        work: "#f5f4fc"
+        work: "#f5f4fc",
       },
       fontFamily: {
         mono: ["Space Mono"],
-        kanit: ["Kanit"]
+        kanit: ["Kanit"],
       },
       backgroundImage: {
-        "footer-bg": "url('/images/contact.svg')"
+        "footer-bg": "url('/images/contact.svg')",
       },
       screens: {
-        "mobile": "320px",
-        'tablet': '768px',
+        mobile: "320px",
+        tablet: "768px",
         // => @media (min-width: 640px) { ... }
 
-        'laptop': '1025px',
+        laptop: "1025px",
         // => @media (min-width: 1024px) { ... }
 
-        'desktop': '1279px'
-      }
+        desktop: "1279px",
+      },
     },
   },
   plugins: [],
-}
-
+};
