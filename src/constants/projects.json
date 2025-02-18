@@ -4,41 +4,55 @@
         "link": "https://brainwave-eta-green.vercel.app/",
         "name": "Brainwave",
         "id": 1,
-        "description": "UI/UX modern Website describe about AI"
+        "description": "UI/UX modern Website describe about AI",
+        "tech": ["react"]
     },
     {
         "imageUrl": "./images/apple.png",
         "link": "https://i-phone-website-nu.vercel.app/",
         "name": "iPhone 15 Pro",
         "id": 2,
-        "description": "This is a clone of Apple's iPhone 15 Pro website."
+        "description": "This is a clone of Apple's iPhone 15 Pro website.",
+        "tech": ["react"]
     },
     {
         "imageUrl": "./images/estaien (2).png",
         "link": "https://estatein-one.vercel.app/",
         "name": "EStatien",
         "id": 4,
-        "description": "EstateIn is a modern real estate web application."
+        "description": "EstateIn is a modern real estate web application.",
+        "tech": ["react", "typescript"]
     },
     {
         "imageUrl": "./images/studysphere (2).png",
         "link": "https://study-sphere-alpha.vercel.app/",
         "name": "Study Sphere",
         "id": 3,
-        "description": "Study Sphere is a modern web application showcasing courses."
+        "description": "Study Sphere is a modern web application showcasing courses.",
+        "tech": ["react", "typescript"]
     },
     {
         "id": 6,
         "imageUrl": "./images/nft.png",
         "link": "https://place-m.vercel.app/",
         "name": "Place Market",
-        "description": "NFT Market place"
+        "description": "NFT Market place",
+        "tech": ["react"]
     },
     {
         "imageUrl": "./images/youtube.png",
         "link": "https://you-tube-clone-rust-xi.vercel.app/",
         "name": "youtube",
         "id": 5,
-        "description": "This is a clone of YouTube website V2"
+        "description": "This is a clone of YouTube website V2",
+        "tech": ["react","typescript"]
+    },
+    {
+        "imageUrl": "./images/cupcode.png",
+        "link": "https://cup-code-black.vercel.app/",
+        "name": "CupCode",
+        "id": 7,
+        "description": "Educational Website",
+        "tech": ["react", "typescript"]
     }
 ]

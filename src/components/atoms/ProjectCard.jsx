@@ -8,7 +8,7 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const ProjectCard = ({ data, limit }) => {
+const ProjectCard = ({ data, limit, starter }) => {
   const displayData = limit ? data.slice(0, limit) : data;
   const pagination = {
     clickable: true,
@@ -21,14 +21,17 @@ const ProjectCard = ({ data, limit }) => {
     320: {
       slidesPerView: 1,
       spaceBetween: 30,
+      loop: "true",
     },
     375: {
       slidesPerView: 1,
       spaceBetween: 20,
+      loop: "true",
     },
     420: {
       slidesPerView: 1,
       spaceBetween: 20,
+      loop: "true",
     },
     767: {
       slidesPerView: 2,
@@ -47,6 +50,7 @@ const ProjectCard = ({ data, limit }) => {
   return (
     <div className="relative container mx-auto flex justify-center items-center gap-5 flex-wrap">
       <Swiper
+        initialSlide={starter}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
@@ -67,15 +71,15 @@ const ProjectCard = ({ data, limit }) => {
           return (
             <SwiperSlide
               key={item.id}
-              className=" max-w-sm bg- border-2 border-primary rounded-lg shadow-xl"
+              className=" max-w-sm bg-supcolor border-2 border-primary rounded-lg shadow-xl"
             >
               <img
-                className="rounded-md w-full h-[auto] aspect-auto object-fill"
+                className="rounded-t-md w-full h-[auto] aspect-auto object-fill border-b-2"
                 src={item.imageUrl}
                 alt={item.name}
               />
 
-              <div className="p-5 bg-white rounded-b-lg text-white">
+              <div className="p-5 bg-supcolor rounded-b-lg text-white">
                 <h5 className="font-kanit mb-2 text-2xl font-bold tracking-tight uppercase text-primary">
                   {item.name}
                   <span className="text-morning text-6xl ml-1 leading-[0]">

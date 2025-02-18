@@ -8,10 +8,10 @@ import ProjectCard from "./atoms/ProjectCard";
 export default function Projects() {
   return (
     <main className="relative h-screen flex  flex-col justify-center items-center bg-supcolor z-50">
-      <ProjectCard data={projects} limit={4} />
+      <ProjectCard data={projects} limit={5} starter={2} showing={3} />
       <Link
         to={"/projects"}
-        className="link relative transition-all flex items-center px text-fonts border-solid border-primary border-2 rounded-lg px-10 py-3 w-fit justify-center"
+        className="link relative transition-all flex items-center text-fonts border-solid border-primary border-2 rounded-lg px-10 py-3 w-fit justify-center"
       >
         <span className="relative z-30 mr-1 font-kanit">Show all projects</span>
         <MdKeyboardArrowRight className="cursor-pointer relative z-30 transition-all" />
