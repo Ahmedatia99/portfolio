@@ -46,6 +46,7 @@ export default function Footer() {
                 <Link
                   to="https://web.facebook.com/ahmedatiaa74"
                   className="w-fit"
+                  target="_blank"
                 >
                   <img
                     src="/images/social media/facebook.png"
@@ -55,19 +56,32 @@ export default function Footer() {
                 <Link
                   to="https://www.instagram.com/itsahmedatia/"
                   className="w-fit"
+                  target="_blank"
                 >
                   <img src="/images/social media/insta.png" className="w-8" />
                 </Link>
-                <Link to="" className="w-fit">
+                <Link
+                  to="https://www.linkedin.com/in/ahmed-atia-b60458206/"
+                  className="w-fit"
+                  target="_blank"
+                >
                   <img
                     src="/images/social media/linkedin.png"
                     className="w-8"
                   />
                 </Link>
-                <Link to="" className="w-fit">
+                <Link
+                  to="https://github.com/Ahmedatia99"
+                  target="_blank"
+                  className="w-fit"
+                >
                   <FaGithub size={30} />
                 </Link>
-                <Link to="" className="w-fit">
+                <Link
+                  to="https://x.com/ahmedatiaa99"
+                  target="_blank"
+                  className="w-fit"
+                >
                   <FaSquareXTwitter size={30} />
                 </Link>
               </div>
