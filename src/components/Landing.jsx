@@ -1,4 +1,4 @@
-import Nav from "../../navigation/Nav";
+import Nav from "../components/Nav";
 function Info() {
   return (
     <section className="container mx-auto flex lg:flex-row md:flex-row max-sm:flex-col justify-around gap-10 items-center lg:my-10 md:my-10 max-sm:my-10 absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 overflow-hidden">
@@ -77,7 +77,6 @@ function Info() {
             src="./images/ahmedatia.jpg"
             alt="ahmed atia"
             className="aspect-auto"
-            loading="lazy"
           />
         </div>
       </div>

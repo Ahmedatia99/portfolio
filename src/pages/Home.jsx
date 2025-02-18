@@ -1,10 +1,10 @@
-import Landing from "../components/atoms/info/Landing";
+import Landing from "../components/Landing";
 import Script from "../components/Script";
-import Projects from "../components/projects/Projects";
+import Projects from "../components/Projects";
 import Exper from "../components/Exper";
-import Footer from "../components/footer/Footer";
-import Nav from "../components/navigation/Nav";
-import Skills from './skills/Skills';
+import Footer from "../components/Footer";
+import Nav from "../components/Nav";
+import Skills from "./Skills";
 
 export const Home = () => (
   <>

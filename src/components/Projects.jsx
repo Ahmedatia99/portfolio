@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../workspace/data.json";
+import projects from "../constants/projects.json";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

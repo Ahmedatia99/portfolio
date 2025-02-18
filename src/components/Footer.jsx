@@ -1,4 +1,4 @@
-import Email from "../atoms/Email";
+import Email from "./atoms/Email";
 import { BsTelephone } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoLocationOutline } from "react-icons/io5";

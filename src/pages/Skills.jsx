@@ -1,7 +1,7 @@
 import React from "react";
 import { RiTailwindCssFill } from "react-icons/ri";
-import IconRender from "./../../components/atoms/skill/IconRender";
-import data from "./data.json";
+import IconRender from "../components/atoms/IconRender";
+import data from "../constants/skills.json";
 export default function Skills() {
   return (
     <main className=" over h-screen  flex justify-center items-center">
