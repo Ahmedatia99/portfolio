@@ -5,7 +5,9 @@
         "name": "Brainwave",
         "id": 1,
         "description": "UI/UX modern Website describe about AI",
-        "tech": ["react"]
+        "tech": [
+            "react"
+        ]
     },
     {
         "imageUrl": "./images/apple.png",
@@ -13,7 +15,9 @@
         "name": "iPhone 15 Pro",
         "id": 2,
         "description": "This is a clone of Apple's iPhone 15 Pro website.",
-        "tech": ["react"]
+        "tech": [
+            "react"
+        ]
     },
     {
         "imageUrl": "./images/estaien (2).png",
@@ -21,7 +25,10 @@
         "name": "EStatien",
         "id": 4,
         "description": "EstateIn is a modern real estate web application.",
-        "tech": ["react", "typescript"]
+        "tech": [
+            "react",
+            "typescript"
+        ]
     },
     {
         "imageUrl": "./images/studysphere (2).png",
@@ -29,7 +36,10 @@
         "name": "Study Sphere",
         "id": 3,
         "description": "Study Sphere is a modern web application showcasing courses.",
-        "tech": ["react", "typescript"]
+        "tech": [
+            "react",
+            "typescript"
+        ]
     },
     {
         "id": 6,
@@ -37,7 +47,9 @@
         "link": "https://place-m.vercel.app/",
         "name": "Place Market",
         "description": "NFT Market place",
-        "tech": ["react"]
+        "tech": [
+            "react"
+        ]
     },
     {
         "imageUrl": "./images/youtube.png",
@@ -45,7 +57,10 @@
         "name": "youtube",
         "id": 5,
         "description": "This is a clone of YouTube website V2",
-        "tech": ["react","typescript"]
+        "tech": [
+            "react",
+            "typescript"
+        ]
     },
     {
         "imageUrl": "./images/cupcode.png",
@@ -53,6 +68,20 @@
         "name": "CupCode",
         "id": 7,
         "description": "Educational Website",
-        "tech": ["react", "typescript"]
+        "tech": [
+            "react",
+            "typescript"
+        ]
+    },
+    {
+        "imageUrl": "./images/FoodZero.png",
+        "link": "https://food-zero-teal.vercel.app/",
+        "name": "FoodZero",
+        "id": 8,
+        "description": "Ordering Pizza Website (Still in development)",
+        "tech": [
+            "next",
+            "typescript"
+        ]
     }
 ]
