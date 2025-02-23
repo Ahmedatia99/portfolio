@@ -38,11 +38,11 @@ const ProjectCard = ({ data, limit, starter }) => {
       spaceBetween: 70,
     },
     1025: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
     12769: {
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 30,
     },
   };

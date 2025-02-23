@@ -26,7 +26,6 @@
         "id": 4,
         "description": "EstateIn is a modern real estate web application.",
         "tech": [
-            "react",
             "typescript"
         ]
     },
@@ -37,8 +36,7 @@
         "id": 3,
         "description": "Study Sphere is a modern web application showcasing courses.",
         "tech": [
-            "react",
-            "typescript"
+            "next"
         ]
     },
     {
@@ -58,7 +56,6 @@
         "id": 5,
         "description": "This is a clone of YouTube website V2",
         "tech": [
-            "react",
             "typescript"
         ]
     },
@@ -69,8 +66,7 @@
         "id": 7,
         "description": "Educational Website",
         "tech": [
-            "react",
-            "typescript"
+            "next"
         ]
     },
     {
