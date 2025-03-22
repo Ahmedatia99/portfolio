@@ -36,7 +36,7 @@ export default function Skills() {
                         {item.name}
                       </h4>
                       <span className="px-3 py-2 max-sm:py-1 max-sm:px-2 rounded-lg bg-green-100 text-green-700 text-xs">
-                        {item.percent}/10
+                        {item.percent}/100
                       </span>
                     </div>
                     <div className="overflow-hidden bg-blue-50 h-1.5 rounded-full w-full">
