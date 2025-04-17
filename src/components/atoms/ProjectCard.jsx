@@ -34,15 +34,15 @@ const ProjectCard = ({ data, limit, starter }) => {
       loop: "true",
     },
     767: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 70,
     },
     1025: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 30,
     },
     12769: {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 30,
     },
   };
@@ -89,16 +89,29 @@ const ProjectCard = ({ data, limit, starter }) => {
                 <p className="mb-3 font-medium h-[60px] text-gray-500">
                   {item.description}
                 </p>
-                <Link
-                  to={item.link}
-                  className="link relative transition-all flex items-center px text-primary border-solid border-primary border-2 rounded-lg px-5 py-1 w-fit"
-                >
-                  <span className="z-30 !text-md tracking-wider font-semibold font-kanit">
-                    DEMO
-                  </span>
+                <div className="flex justify-between items-center flex-wrap">
+                  <Link
+                    to={item.link}
+                    className="link relative transition-all flex items-center px text-primary border-solid border-primary border-2 rounded-lg px-5 py-1 w-fit"
+                  >
+                    <span className="z-30 !text-md tracking-wider font-semibold font-kanit">
+                      DEMO
+                    </span>
 
-                  <FaArrowRightLong className="ml-2 relative z-30" />
-                </Link>
+                    <FaArrowRightLong className="ml-2 relative z-30" />
+                  </Link>
+
+                  <Link
+                    to={item.repo}
+                    className="repo relative transition-all flex items-center px text-primary border-solid border-red-400 border-2 rounded-lg px-5 py-1 w-fit"
+                  >
+                    <span className="z-30 !text-md tracking-wider font-semibold font-kanit">
+                      Repo
+                    </span>
+
+                    <FaArrowRightLong className="ml-2 relative z-30" />
+                  </Link>
+                </div>
               </div>
             </SwiperSlide>
           );
