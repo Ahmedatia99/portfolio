@@ -1,6 +1,7 @@
 [
     {
         "imageUrl": "./images/brainwave.png",
+        "repo": "https://github.com/Ahmedatia99/Brainwave",
         "link": "https://brainwave-eta-green.vercel.app/",
         "name": "Brainwave",
         "id": 1,
@@ -11,6 +12,7 @@
     },
     {
         "imageUrl": "./images/apple.png",
+        "repo": "https://github.com/Ahmedatia99/IPhone-website",
         "link": "https://i-phone-website-nu.vercel.app/",
         "name": "iPhone 15 Pro",
         "id": 2,
@@ -20,7 +22,20 @@
         ]
     },
     {
+        "imageUrl": "./images/YC.png",
+        "repo": "https://github.com/Ahmedatia99/YC-dictionary",
+        "link": "",
+        "name": "YC Dictionary",
+        "id": 9,
+        "description": "A Next.js 15 platform",
+        "tech": [
+            "next",
+            "typescript"
+        ]
+    },
+    {
         "imageUrl": "./images/estaien (2).png",
+        "repo": "https://github.com/Ahmedatia99/Estatein",
         "link": "https://estatein-one.vercel.app/",
         "name": "EStatien",
         "id": 4,
@@ -31,6 +46,7 @@
     },
     {
         "imageUrl": "./images/studysphere (2).png",
+        "repo": "https://github.com/Ahmedatia99/StudySphere",
         "link": "https://study-sphere-alpha.vercel.app/",
         "name": "Study Sphere",
         "id": 3,
@@ -39,18 +55,10 @@
             "next"
         ]
     },
-    {
-        "id": 6,
-        "imageUrl": "./images/nft.png",
-        "link": "https://place-m.vercel.app/",
-        "name": "Place Market",
-        "description": "NFT Market place",
-        "tech": [
-            "react"
-        ]
-    },
+    
     {
         "imageUrl": "./images/youtube.png",
+        "repo": "https://github.com/Ahmedatia99/You-tube-clone",
         "link": "https://you-tube-clone-rust-xi.vercel.app/",
         "name": "youtube",
         "id": 5,
@@ -61,6 +69,7 @@
     },
     {
         "imageUrl": "./images/cupcode.png",
+        "repo": "https://github.com/Ahmedatia99/CupCode",
         "link": "https://cup-code-black.vercel.app/",
         "name": "CupCode",
         "id": 7,
@@ -71,13 +80,25 @@
     },
     {
         "imageUrl": "./images/FoodZero.png",
+        "repo": "https://github.com/Ahmedatia99/FoodZero",
         "link": "https://food-zero-teal.vercel.app/",
         "name": "FoodZero",
-        "id": 8,
-        "description": "Ordering Pizza Website (Still in development)",
+        "id": 6,
+        "description": "Ordering Pizza Website",
         "tech": [
             "next",
             "typescript"
+        ]
+    },
+    {
+        "id": 8,
+        "imageUrl": "./images/nft.png",
+        "repo": "",
+        "link": "https://place-m.vercel.app/",
+        "name": "Place Market",
+        "description": "NFT Market place",
+        "tech": [
+            "react"
         ]
     }
 ]
